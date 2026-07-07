@@ -1,0 +1,15 @@
+pandas
+numpy
+jupyter
+notebook
+python-dotenv
+pypdf
+pdfplumber
+pydantic
+langchain
+langchain-openai
+langgraph
+openai
+scikit-learn
+matplotlib
+streamlit
