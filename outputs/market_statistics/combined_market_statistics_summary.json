@@ -1,0 +1,331 @@
+{
+    "main_statistics": {
+        "type": "LLM-based structured statistics from MongoDB",
+        "total_unique_processed_jobs": 2,
+        "total_job_submissions": 2,
+        "top_required_skills": [
+            {
+                "skill": "JavaScript",
+                "count": 2
+            },
+            {
+                "skill": "HTML5",
+                "count": 2
+            },
+            {
+                "skill": "TypeScript",
+                "count": 1
+            },
+            {
+                "skill": "React",
+                "count": 1
+            },
+            {
+                "skill": "Node.js",
+                "count": 1
+            },
+            {
+                "skill": "Python",
+                "count": 1
+            },
+            {
+                "skill": "Express.js",
+                "count": 1
+            },
+            {
+                "skill": "PostgreSQL",
+                "count": 1
+            },
+            {
+                "skill": "MongoDB",
+                "count": 1
+            },
+            {
+                "skill": "CSS3",
+                "count": 1
+            }
+        ],
+        "top_programming_languages": [
+            {
+                "programming_language": "JavaScript",
+                "count": 2
+            },
+            {
+                "programming_language": "TypeScript",
+                "count": 1
+            },
+            {
+                "programming_language": "Python",
+                "count": 1
+            },
+            {
+                "programming_language": "C#",
+                "count": 1
+            },
+            {
+                "programming_language": "VB.NET",
+                "count": 1
+            }
+        ],
+        "top_frameworks": [
+            {
+                "framework": "React",
+                "count": 1
+            },
+            {
+                "framework": "Node.js",
+                "count": 1
+            },
+            {
+                "framework": "Express.js",
+                "count": 1
+            },
+            {
+                "framework": "ASP.NET",
+                "count": 1
+            },
+            {
+                "framework": "MVC",
+                "count": 1
+            },
+            {
+                "framework": "jQuery",
+                "count": 1
+            },
+            {
+                "framework": "Knockout.js",
+                "count": 1
+            },
+            {
+                "framework": "Angular.js",
+                "count": 1
+            },
+            {
+                "framework": "HTML5",
+                "count": 1
+            }
+        ],
+        "top_job_categories": [
+            {
+                "job_category": "Software Development",
+                "count": 2
+            }
+        ]
+    },
+    "supporting_statistics": {
+        "type": "Keyword-based overview from cleaned dataset",
+        "total_cleaned_jobs": 6495,
+        "top_programming_languages": [
+            {
+                "keyword": "go",
+                "count": 5276
+            },
+            {
+                "keyword": "python",
+                "count": 2739
+            },
+            {
+                "keyword": "java",
+                "count": 2393
+            },
+            {
+                "keyword": "javascript",
+                "count": 1267
+            },
+            {
+                "keyword": "c#",
+                "count": 681
+            },
+            {
+                "keyword": "c++",
+                "count": 672
+            },
+            {
+                "keyword": "typescript",
+                "count": 409
+            },
+            {
+                "keyword": "php",
+                "count": 145
+            },
+            {
+                "keyword": "swift",
+                "count": 138
+            },
+            {
+                "keyword": "kotlin",
+                "count": 100
+            }
+        ],
+        "top_frameworks": [
+            {
+                "keyword": "react",
+                "count": 848
+            },
+            {
+                "keyword": ".net",
+                "count": 617
+            },
+            {
+                "keyword": "angular",
+                "count": 522
+            },
+            {
+                "keyword": "node.js",
+                "count": 283
+            },
+            {
+                "keyword": "spring boot",
+                "count": 234
+            },
+            {
+                "keyword": "vue",
+                "count": 173
+            },
+            {
+                "keyword": "django",
+                "count": 75
+            },
+            {
+                "keyword": "flask",
+                "count": 51
+            },
+            {
+                "keyword": "laravel",
+                "count": 26
+            },
+            {
+                "keyword": "fastapi",
+                "count": 19
+            }
+        ],
+        "top_databases": [
+            {
+                "keyword": "sql",
+                "count": 2894
+            },
+            {
+                "keyword": "oracle",
+                "count": 722
+            },
+            {
+                "keyword": "mysql",
+                "count": 360
+            },
+            {
+                "keyword": "postgresql",
+                "count": 264
+            },
+            {
+                "keyword": "mongodb",
+                "count": 243
+            },
+            {
+                "keyword": "redis",
+                "count": 154
+            },
+            {
+                "keyword": "elasticsearch",
+                "count": 86
+            }
+        ],
+        "top_cloud_devops_tools": [
+            {
+                "keyword": "aws",
+                "count": 2832
+            },
+            {
+                "keyword": "azure",
+                "count": 1824
+            },
+            {
+                "keyword": "linux",
+                "count": 976
+            },
+            {
+                "keyword": "kubernetes",
+                "count": 877
+            },
+            {
+                "keyword": "docker",
+                "count": 772
+            },
+            {
+                "keyword": "gcp",
+                "count": 571
+            },
+            {
+                "keyword": "jenkins",
+                "count": 531
+            },
+            {
+                "keyword": "terraform",
+                "count": 493
+            },
+            {
+                "keyword": "google cloud",
+                "count": 395
+            }
+        ],
+        "top_data_ai_tools": [
+            {
+                "keyword": "machine learning",
+                "count": 946
+            },
+            {
+                "keyword": "tableau",
+                "count": 661
+            },
+            {
+                "keyword": "power bi",
+                "count": 499
+            },
+            {
+                "keyword": "spark",
+                "count": 479
+            },
+            {
+                "keyword": "tensorflow",
+                "count": 190
+            },
+            {
+                "keyword": "pytorch",
+                "count": 190
+            },
+            {
+                "keyword": "pandas",
+                "count": 75
+            },
+            {
+                "keyword": "numpy",
+                "count": 64
+            }
+        ],
+        "top_testing_tools": [
+            {
+                "keyword": "selenium",
+                "count": 145
+            },
+            {
+                "keyword": "junit",
+                "count": 97
+            },
+            {
+                "keyword": "postman",
+                "count": 92
+            },
+            {
+                "keyword": "jest",
+                "count": 73
+            },
+            {
+                "keyword": "cypress",
+                "count": 65
+            },
+            {
+                "keyword": "pytest",
+                "count": 18
+            }
+        ]
+    }
+}

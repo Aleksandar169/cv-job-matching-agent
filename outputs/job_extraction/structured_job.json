@@ -1,0 +1,92 @@
+{
+    "job_title": "Senior Developer",
+    "company_name": "USLI",
+    "location": null,
+    "work_mode": "On-site 75% of the time",
+    "employment_type": "Full-time",
+    "job_category": "Software Development",
+    "required_skills": [
+        "ASP.NET",
+        "C#",
+        "MVC",
+        "Object Oriented Design/Development",
+        "VB.NET",
+        "Agile",
+        "SCRUM",
+        "JavaScript",
+        "jQuery",
+        "JSON",
+        "Knockout.js",
+        "Angular.js",
+        "HTML5",
+        "SQL Server",
+        "SQL/XML"
+    ],
+    "nice_to_have_skills": [
+        "Emerging Microsoft technologies"
+    ],
+    "programming_languages": [
+        "C#",
+        "VB.NET",
+        "JavaScript"
+    ],
+    "frameworks_and_libraries": [
+        "ASP.NET",
+        "MVC",
+        "jQuery",
+        "Knockout.js",
+        "Angular.js",
+        "HTML5"
+    ],
+    "databases": [
+        "SQL Server"
+    ],
+    "cloud_and_devops_tools": [],
+    "data_and_ai_tools": [],
+    "testing_tools": [],
+    "other_tools": [],
+    "responsibilities": [
+        "Day to day oversight and direction on medium size team initiatives",
+        "Management and taking advantage of code re-use",
+        "Designing and implementing new feature sets",
+        "Responsible for the coding standards of the department",
+        "Assists in recommending refactoring phases",
+        "Keep up with new technologies and new developments in the software development field",
+        "Mentor and support other team members on complex technical subjects"
+    ],
+    "experience_requirements": [
+        {
+            "minimum_years": "10+ years",
+            "seniority_level": "Senior",
+            "related_area_or_skill": "software development",
+            "experience_description": "minimum of 10+ years of software development experience",
+            "is_required": true
+        }
+    ],
+    "education_requirements": [
+        {
+            "degree_required": "College degree/technical certifications",
+            "field_of_study": null,
+            "education_description": "College degree/technical certifications or equivalent industry/technical experience",
+            "is_required": true
+        }
+    ],
+    "certifications": [],
+    "language_requirements": [],
+    "soft_skills": [
+        "Excellent oral and written communication skills",
+        "Customer service skills",
+        "Ability to resolve team conflicts",
+        "Strong problem solving skills",
+        "Ability and desire to learn new technologies rapidly"
+    ],
+    "unclear_or_missing_information": [],
+    "metadata": {
+        "job_key": "text_hash_e5e31e9634a7bdd428551b3012d5dd28ee3558142f843a5819622159d8b89fbd",
+        "model": "gpt-4o-mini",
+        "extraction_type": "structured_job_extraction",
+        "source": "cleaned_dataset_demo",
+        "source_file": "cleaned_it_job_postings.csv",
+        "source_row_index": 1
+    }
+}

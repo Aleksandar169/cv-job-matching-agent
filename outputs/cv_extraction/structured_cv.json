@@ -1,0 +1,100 @@
+{
+    "candidate_name": "ALEX JOHNSON",
+    "email": "alex.jjohnson@example.com",
+    "phone": "+1 202-555-0147",
+    "location": "Example City, 10000",
+    "linkedin_url": "https://www.linkedin.com/in/alex-johnson-example/",
+    "github_url": "",
+    "portfolio_url": "",
+    "profile_summary": "Highly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical Engineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and System Programming (C/C++, Java, Python). Seeking to leverage advanced technical skills and a robust background in low-level systems and application development to contribute high-impact solutions to a challenging and innovative engineering environment. Strong communication and teamwork skills developed through university projects.",
+    "total_years_of_experience": "",
+    "technical_skills": [
+        "Algorithms",
+        "Data Structures",
+        "Problem solving",
+        "Networks"
+    ],
+    "programming_languages": [
+        "C",
+        "C++",
+        "Java",
+        "Python",
+        "SQL",
+        "Assembly"
+    ],
+    "frameworks_and_libraries": [],
+    "databases": [],
+    "cloud_and_devops_tools": [],
+    "data_and_ai_tools": [],
+    "other_tools": [
+        "Git"
+    ],
+    "soft_skills": [
+        "Strong communication",
+        "Teamwork"
+    ],
+    "languages": [],
+    "education": [
+        {
+            "institution": "University of Belgrade - School of Electrical Engineering (ETF)",
+            "degree": "Bachelor of Science (B.Sc.)",
+            "field_of_study": "Software Engineering",
+            "start_year": "",
+            "end_year": "June 2027"
+        }
+    ],
+    "work_experience": [],
+    "projects": [
+        {
+            "project_name": "Multithreaded Preemptive Kernel for RISC-V Architecture",
+            "description": "Developed a foundational kernel model to demonstrate core OS concepts, focusing heavily on memory management, threads, and low-level hardware interaction.",
+            "technologies_used": [
+                "C++",
+                "C",
+                "Assembly"
+            ],
+            "project_result": ""
+        },
+        {
+            "project_name": "Command-Line Interpreter",
+            "description": "Developed a functional command-line interpreter applying advanced OOP principles in C++, focusing on clean architecture and modular design for command execution and parsing.",
+            "technologies_used": [
+                "C++"
+            ],
+            "project_result": ""
+        },
+        {
+            "project_name": "GUI Flight Simulator",
+            "description": "Developed a visual flight simulator using Java AWT for the GUI, strictly adhering to Object-Oriented Programming principles for clean, scalable design and management of flight data.",
+            "technologies_used": [
+                "Java"
+            ],
+            "project_result": ""
+        },
+        {
+            "project_name": "Sudoku & Ludo",
+            "description": "Developed interactive, fully functional game applications in Python, demonstrating strong capabilities in algorithmic logic design and efficient problem-solving for complex game rules.",
+            "technologies_used": [
+                "Python"
+            ],
+            "project_result": ""
+        },
+        {
+            "project_name": "Binary Tree, Fibonacci heap, B* Tree and Graph Algorithms",
+            "description": "Implemented performance-critical algorithms for B* Tree indexing, Binary Search Trees, and Graph theory, utilizing C/C++ to achieve high computational efficiency and optimal algorithmic complexity.",
+            "technologies_used": [
+                "C",
+                "C++"
+            ],
+            "project_result": ""
+        }
+    ],
+    "certifications": [],
+    "unclear_or_missing_information": [],
+    "metadata": {
+        "source_file": "test_cv_extracted_text.txt",
+        "model": "gpt-4o-mini",
+        "extraction_type": "structured_cv_extraction",
+        "notes": "Only information visible in the CV text should be included."
+    }
+}

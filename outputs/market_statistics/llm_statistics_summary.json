@@ -1,0 +1,165 @@
+{
+    "statistics_type": "LLM-based structured job statistics",
+    "total_unique_processed_jobs": 2,
+    "total_job_submissions": 2,
+    "top_job_categories": [
+        {
+            "job_category": "Software Development",
+            "count": 2
+        }
+    ],
+    "top_seniority_levels": [
+        {
+            "seniority_level": "Unknown",
+            "count": 1
+        },
+        {
+            "seniority_level": "Senior",
+            "count": 1
+        }
+    ],
+    "top_required_skills": [
+        {
+            "skill": "JavaScript",
+            "count": 2
+        },
+        {
+            "skill": "HTML5",
+            "count": 2
+        },
+        {
+            "skill": "TypeScript",
+            "count": 1
+        },
+        {
+            "skill": "React",
+            "count": 1
+        },
+        {
+            "skill": "Node.js",
+            "count": 1
+        },
+        {
+            "skill": "Python",
+            "count": 1
+        },
+        {
+            "skill": "Express.js",
+            "count": 1
+        },
+        {
+            "skill": "PostgreSQL",
+            "count": 1
+        },
+        {
+            "skill": "MongoDB",
+            "count": 1
+        },
+        {
+            "skill": "CSS3",
+            "count": 1
+        }
+    ],
+    "top_programming_languages": [
+        {
+            "programming_language": "JavaScript",
+            "count": 2
+        },
+        {
+            "programming_language": "TypeScript",
+            "count": 1
+        },
+        {
+            "programming_language": "Python",
+            "count": 1
+        },
+        {
+            "programming_language": "C#",
+            "count": 1
+        },
+        {
+            "programming_language": "VB.NET",
+            "count": 1
+        }
+    ],
+    "top_frameworks": [
+        {
+            "framework": "React",
+            "count": 1
+        },
+        {
+            "framework": "Node.js",
+            "count": 1
+        },
+        {
+            "framework": "Express.js",
+            "count": 1
+        },
+        {
+            "framework": "ASP.NET",
+            "count": 1
+        },
+        {
+            "framework": "MVC",
+            "count": 1
+        },
+        {
+            "framework": "jQuery",
+            "count": 1
+        },
+        {
+            "framework": "Knockout.js",
+            "count": 1
+        },
+        {
+            "framework": "Angular.js",
+            "count": 1
+        },
+        {
+            "framework": "HTML5",
+            "count": 1
+        }
+    ],
+    "top_databases": [
+        {
+            "database": "PostgreSQL",
+            "count": 1
+        },
+        {
+            "database": "MongoDB",
+            "count": 1
+        },
+        {
+            "database": "SQL Server",
+            "count": 1
+        }
+    ],
+    "top_cloud_devops_tools": [
+        {
+            "tool": "AWS",
+            "count": 1
+        },
+        {
+            "tool": "Azure",
+            "count": 1
+        },
+        {
+            "tool": "Google Cloud Platform",
+            "count": 1
+        }
+    ],
+    "top_data_ai_tools": [],
+    "top_testing_tools": [],
+    "monthly_unique_jobs": [
+        {
+            "year_month": "2026-07",
+            "count": 2
+        }
+    ],
+    "monthly_submissions": [
+        {
+            "year_month": "2026-07",
+            "count": 2
+        }
+    ]
+}
