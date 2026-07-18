@@ -1,0 +1,123 @@
+{
+    "metadata": {
+        "created_at": "2026-07-19T00:21:14",
+        "matching_type": "hybrid_rule_based_and_llm_semantic_matching",
+        "cv_source": "..\\outputs\\cv_extraction\\structured_cv.json",
+        "job_source": "..\\outputs\\job_extraction\\structured_job.json",
+        "llm_model": "gpt-4o-mini"
+    },
+    "job_information": {
+        "job_title": "Senior Developer",
+        "company_name": "USLI",
+        "job_category": "Software Development",
+        "location": null,
+        "work_mode": "On-site 75% of the time",
+        "employment_type": "Full-time"
+    },
+    "final_result": {
+        "final_hybrid_score": 12.15,
+        "rule_based_score": 8.6,
+        "semantic_score": 32.3,
+        "match_category": "Weak match"
+    },
+    "score_breakdown": {
+        "required_skills_score": 0.0,
+        "technology_score": 0.0,
+        "experience_score": 0,
+        "education_score": 70,
+        "nice_to_have_score": 0.0,
+        "certification_score": 100,
+        "language_score": 100,
+        "rule_based_score": 8.6,
+        "semantic_score": 32.3,
+        "final_hybrid_score": 12.15
+    },
+    "matched_items": {
+        "matched_required_skills": [],
+        "matched_nice_to_have_skills": [],
+        "matched_technology_skills": [],
+        "matched_certifications": [],
+        "matched_languages": []
+    },
+    "missing_items": {
+        "missing_required_skills": [
+            "ASP.NET",
+            "C#",
+            "MVC",
+            "Object Oriented Design/Development",
+            "VB.NET",
+            "Agile",
+            "SCRUM",
+            "JavaScript",
+            "jQuery",
+            "JSON",
+            "Knockout.js",
+            "Angular.js",
+            "HTML5",
+            "SQL Server",
+            "SQL/XML"
+        ],
+        "missing_nice_to_have_skills": [
+            "Emerging Microsoft technologies"
+        ],
+        "missing_technology_skills": [
+            "C#",
+            "VB.NET",
+            "JavaScript",
+            "ASP.NET",
+            "MVC",
+            "jQuery",
+            "Knockout.js",
+            "Angular.js",
+            "HTML5",
+            "SQL Server"
+        ],
+        "missing_certifications": [],
+        "missing_languages": []
+    },
+    "experience_analysis": {
+        "job_minimum_years": 10,
+        "cv_years_of_experience": null,
+        "experience_score": 0,
+        "experience_note": "The job posting specifies experience requirements, but years of experience are not clearly evidenced in the CV."
+    },
+    "education_analysis": {
+        "job_education_requirements": [
+            "College degree/technical certifications College degree/technical certifications or equivalent industry/technical experience"
+        ],
+        "cv_education": [
+            "University of Belgrade - School of Electrical Engineering (ETF) Bachelor of Science (B.Sc.) Software Engineering  June 2027"
+        ],
+        "education_score": 70,
+        "education_note": "Education is present in the CV, but detailed equivalence should be reviewed manually."
+    },
+    "semantic_analysis": {
+        "responsibilities_alignment_score": 20,
+        "soft_skills_evidence_score": 61,
+        "role_fit_summary": "The candidate shows very limited alignment with the job responsibilities, primarily due to a lack of relevant work experience and specific technical skills required for the Senior Developer role. However, the candidate demonstrates some soft skills such as communication and teamwork through university projects, which may be beneficial in a team environment. The most significant gaps are in the technical skills and experience level required for the position.",
+        "responsibilities_evidenced": [],
+        "responsibilities_not_evidenced": [
+            "Day to day oversight and direction on medium size team initiatives",
+            "Management and taking advantage of code re-use",
+            "Designing and implementing new feature sets",
+            "Responsible for the coding standards of the department",
+            "Assists in recommending refactoring phases",
+            "Keep up with new technologies and new developments in the software development field",
+            "Mentor and support other team members on complex technical subjects"
+        ],
+        "soft_skills_evidenced": [
+            "Strong communication",
+            "Teamwork"
+        ],
+        "soft_skills_not_clearly_evidenced": [
+            "Excellent oral and written communication skills",
+            "Customer service skills",
+            "Ability to resolve team conflicts",
+            "Strong problem solving skills",
+            "Ability and desire to learn new technologies rapidly"
+        ],
+        "evidence_notes": [
+            "The candidate's CV does not provide any work experience, which is critical for the responsibilities outlined in the job posting. The responsibilities listed require significant experience and leadership in software development, which the candidate lacks. The soft skills of communication and teamwork are evidenced through university projects, but other soft skills such as conflict resolution and customer service are not clearly evidenced. Overall, the candidate is not a fit for the Senior Developer role due to the lack of required technical skills and experience."
+        ]
+    }
+}
