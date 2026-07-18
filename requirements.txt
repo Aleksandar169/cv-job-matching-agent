@@ -13,3 +13,4 @@ openai
 scikit-learn
 matplotlib
 streamlit
+pymongo
