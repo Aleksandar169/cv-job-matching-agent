@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "created_at": "2026-07-19T00:21:14",
+        "created_at": "2026-07-19T15:14:58",
         "matching_type": "hybrid_rule_based_and_llm_semantic_matching",
         "cv_source": "..\\outputs\\cv_extraction\\structured_cv.json",
         "job_source": "..\\outputs\\job_extraction\\structured_job.json",
@@ -15,8 +15,8 @@
         "employment_type": "Full-time"
     },
     "final_result": {
-        "final_hybrid_score": 12.15,
-        "rule_based_score": 8.6,
+        "final_hybrid_score": 15.55,
+        "rule_based_score": 12.6,
         "semantic_score": 32.3,
         "match_category": "Weak match"
     },
@@ -28,9 +28,9 @@
         "nice_to_have_score": 0.0,
         "certification_score": 100,
         "language_score": 100,
-        "rule_based_score": 8.6,
+        "rule_based_score": 12.6,
         "semantic_score": 32.3,
-        "final_hybrid_score": 12.15
+        "final_hybrid_score": 15.55
     },
     "matched_items": {
         "matched_required_skills": [],
@@ -94,7 +94,7 @@
     "semantic_analysis": {
         "responsibilities_alignment_score": 20,
         "soft_skills_evidence_score": 61,
-        "role_fit_summary": "The candidate shows very limited alignment with the job responsibilities, primarily due to a lack of relevant work experience and specific technical skills required for the Senior Developer role. However, the candidate demonstrates some soft skills such as communication and teamwork through university projects, which may be beneficial in a team environment. The most significant gaps are in the technical skills and experience level required for the position.",
+        "role_fit_summary": "The candidate shows very limited alignment with the job responsibilities, primarily due to a lack of relevant work experience and specific technical skills required for the Senior Developer role. However, the candidate demonstrates some soft skills such as teamwork and communication through university projects, which may be beneficial in a collaborative environment. The most significant gaps are in the technical skills and experience level required for the position.",
         "responsibilities_evidenced": [],
         "responsibilities_not_evidenced": [
             "Day to day oversight and direction on medium size team initiatives",
@@ -117,7 +117,7 @@
             "Ability and desire to learn new technologies rapidly"
         ],
         "evidence_notes": [
-            "The candidate's CV does not provide any work experience, which is critical for the responsibilities outlined in the job posting. The responsibilities listed require significant experience and leadership in software development, which the candidate lacks. The soft skills of communication and teamwork are evidenced through university projects, but other soft skills such as conflict resolution and customer service are not clearly evidenced. Overall, the candidate is not a fit for the Senior Developer role due to the lack of required technical skills and experience."
+            "The candidate's CV does not provide any work experience, which is critical for the responsibilities of a Senior Developer role. The responsibilities listed in the job posting require significant experience in software development and team management, which the candidate lacks. The soft skills of communication and teamwork are evidenced through university projects, but other soft skills such as conflict resolution and customer service are not clearly evidenced. Overall, the candidate is not a fit for the technical requirements of the position."
         ]
     }
 }

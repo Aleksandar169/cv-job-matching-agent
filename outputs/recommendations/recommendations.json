@@ -1,0 +1,191 @@
+{
+    "metadata": {
+        "created_at": "2026-07-19T15:17:35",
+        "recommendation_type": "llm_based_evidence_recommendations",
+        "llm_model": "gpt-4o-mini",
+        "cv_source": "..\\outputs\\cv_extraction\\structured_cv.json",
+        "job_source": "..\\outputs\\job_extraction\\structured_job.json",
+        "cv_quality_source": "..\\outputs\\cv_quality\\cv_quality_analysis.json",
+        "matching_source": "..\\outputs\\matching\\matching_result.json"
+    },
+    "job_information": {
+        "job_title": "Senior Developer",
+        "company_name": "USLI",
+        "job_category": "Software Development",
+        "location": null,
+        "work_mode": "On-site 75% of the time",
+        "employment_type": "Full-time"
+    },
+    "matching_summary": {
+        "final_hybrid_score": 15.55,
+        "rule_based_score": 12.6,
+        "semantic_score": 32.3,
+        "match_category": "Weak match"
+    },
+    "recommendations": {
+        "overall_recommendation_summary": "To improve your CV and job matching for the Senior Developer position, focus on developing the required technical skills, enhancing the clarity and organization of your CV, and gaining relevant work experience.",
+        "cv_improvement_recommendations": [
+            {
+                "title": "Organize Technical Skills",
+                "recommendation": "Group your technical skills into categories such as Programming Languages, Frameworks, and Tools to enhance clarity.",
+                "reason": "The current skills section lacks organization, making it difficult for recruiters to quickly identify your competencies.",
+                "evidence": "The CV quality analysis indicates that the skills section lacks clear organization and grouping.",
+                "priority": "High"
+            },
+            {
+                "title": "Add Measurable Results to Projects",
+                "recommendation": "Include measurable outcomes or impacts for each project to demonstrate effectiveness and contributions.",
+                "reason": "Measurable results can significantly enhance the impact of your projects and show potential employers the value you can bring.",
+                "evidence": "The CV quality analysis notes that no measurable results or quantifiable achievements are provided in project descriptions.",
+                "priority": "High"
+            },
+            {
+                "title": "Include Relevant Work Experience",
+                "recommendation": "Consider adding any relevant internships or work experience to enhance the CV's completeness.",
+                "reason": "The job posting requires significant experience, which is currently missing from your CV, making it a weak match for the position.",
+                "evidence": "The CV does not provide any work experience, which is critical for the responsibilities of a Senior Developer role.",
+                "priority": "High"
+            }
+        ],
+        "missing_required_skills_recommendations": [
+            {
+                "skill": "ASP.NET",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Consider taking an online course or tutorial on ASP.NET to build foundational knowledge and skills.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "High"
+            },
+            {
+                "skill": "C#",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Learn C# through online resources or projects to gain practical experience.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "High"
+            },
+            {
+                "skill": "MVC",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Familiarize yourself with the MVC framework by building a small web application.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "High"
+            },
+            {
+                "skill": "Object Oriented Design/Development",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Study Object-Oriented Design principles and apply them in your projects to strengthen your understanding.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "High"
+            },
+            {
+                "skill": "VB.NET",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Explore VB.NET through tutorials or projects to gain familiarity with the language.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "High"
+            },
+            {
+                "skill": "Agile",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Learn about Agile methodologies and consider participating in Agile projects or simulations.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "High"
+            },
+            {
+                "skill": "SCRUM",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Consider obtaining a SCRUM certification or participating in SCRUM training.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "High"
+            },
+            {
+                "skill": "JavaScript",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Learn JavaScript through online courses and practice by building small web applications.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "High"
+            },
+            {
+                "skill": "jQuery",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Familiarize yourself with jQuery by integrating it into your JavaScript projects.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "High"
+            },
+            {
+                "skill": "JSON",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Learn about JSON and practice using it in your projects for data interchange.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "Medium"
+            },
+            {
+                "skill": "Knockout.js",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Explore Knockout.js through tutorials and apply it in a project to understand its use in MVVM architecture.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "Medium"
+            },
+            {
+                "skill": "Angular.js",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Learn Angular.js by building a small application to understand its framework and components.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "Medium"
+            },
+            {
+                "skill": "HTML5",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Familiarize yourself with HTML5 features and practice by creating web pages.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "Medium"
+            },
+            {
+                "skill": "SQL Server",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Learn SQL Server through online courses and practice by creating and managing databases.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "Medium"
+            },
+            {
+                "skill": "SQL/XML",
+                "current_status": "not evidenced in CV",
+                "development_recommendation": "Study SQL/XML and practice using it in database projects.",
+                "cv_update_recommendation": "If this is true, add it clearly to the CV with evidence of coursework or projects.",
+                "priority": "Medium"
+            }
+        ],
+        "technical_development_recommendations": [],
+        "project_recommendations": [],
+        "soft_skills_recommendations": [
+            {
+                "title": "Evidencing Additional Soft Skills",
+                "recommendation": "Consider providing examples of how you have resolved team conflicts or demonstrated customer service skills in your projects or coursework.",
+                "reason": "The job posting emphasizes the importance of soft skills such as conflict resolution and customer service, which are not clearly evidenced in your CV.",
+                "evidence": "The CV shows strong communication and teamwork but lacks evidence for other soft skills required for the position.",
+                "priority": "Medium"
+            }
+        ],
+        "priority_actions": [
+            {
+                "action": "Develop required technical skills such as C#, ASP.NET, and JavaScript through online courses or projects.",
+                "expected_impact": "This will address the significant gaps in required skills for the Senior Developer position, improving job match potential.",
+                "priority": "High"
+            },
+            {
+                "action": "Organize and enhance your CV by grouping skills and adding measurable results to projects.",
+                "expected_impact": "Improving CV clarity and impact will make it more appealing to recruiters and increase your chances of being considered for roles.",
+                "priority": "High"
+            },
+            {
+                "action": "Seek internships or relevant work experience to build your professional background in software development.",
+                "expected_impact": "Gaining practical experience will help meet the job's experience requirements and strengthen your overall profile.",
+                "priority": "High"
+            }
+        ],
+        "evidence_based_notes": [
+            "The candidate's CV does not provide any work experience, which is critical for the responsibilities of a Senior Developer role.",
+            "The job posting requires significant experience in software development, which the candidate lacks.",
+            "The candidate demonstrates some soft skills through university projects, but other soft skills such as conflict resolution and customer service are not clearly evidenced."
+        ]
+    }
+}

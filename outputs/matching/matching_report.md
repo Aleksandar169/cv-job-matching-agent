@@ -12,9 +12,9 @@
 
 ## Final Hybrid Matching Result
 
-- Final hybrid match score: 12.15/100
+- Final hybrid match score: 15.55/100
 - Match category: Weak match
-- Rule-based score: 8.6/100
+- Rule-based score: 12.6/100
 - LLM semantic score: 32.3/100
 
 ## Rule-Based Score Breakdown
@@ -110,7 +110,7 @@
 
 ### Role Fit Summary
 
-The candidate shows very limited alignment with the job responsibilities, primarily due to a lack of relevant work experience and specific technical skills required for the Senior Developer role. However, the candidate demonstrates some soft skills such as communication and teamwork through university projects, which may be beneficial in a team environment. The most significant gaps are in the technical skills and experience level required for the position.
+The candidate shows very limited alignment with the job responsibilities, primarily due to a lack of relevant work experience and specific technical skills required for the Senior Developer role. However, the candidate demonstrates some soft skills such as teamwork and communication through university projects, which may be beneficial in a collaborative environment. The most significant gaps are in the technical skills and experience level required for the position.
 
 ### Responsibilities Evidenced in CV
 
@@ -141,4 +141,4 @@ The candidate shows very limited alignment with the job responsibilities, primar
 
 ### Evidence Notes
 
-- The candidate's CV does not provide any work experience, which is critical for the responsibilities outlined in the job posting. The responsibilities listed require significant experience and leadership in software development, which the candidate lacks. The soft skills of communication and teamwork are evidenced through university projects, but other soft skills such as conflict resolution and customer service are not clearly evidenced. Overall, the candidate is not a fit for the Senior Developer role due to the lack of required technical skills and experience.
+- The candidate's CV does not provide any work experience, which is critical for the responsibilities of a Senior Developer role. The responsibilities listed in the job posting require significant experience in software development and team management, which the candidate lacks. The soft skills of communication and teamwork are evidenced through university projects, but other soft skills such as conflict resolution and customer service are not clearly evidenced. Overall, the candidate is not a fit for the technical requirements of the position.
