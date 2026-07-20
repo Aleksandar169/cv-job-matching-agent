@@ -1,0 +1,50 @@
+{
+    "metadata": {
+        "created_at": "2026-07-20T19:14:05",
+        "workflow_type": "langgraph_cv_job_matching_workflow",
+        "status": "completed",
+        "started_at": "2026-07-20T19:14:05",
+        "completed_at": "2026-07-20T19:14:05"
+    },
+    "input_files": {
+        "cv_text": null,
+        "cv_quality": "..\\outputs\\cv_quality\\cv_quality_analysis.json",
+        "structured_cv": "..\\outputs\\cv_extraction\\structured_cv.json",
+        "structured_job": "..\\outputs\\job_extraction\\structured_job.json",
+        "matching_result": "..\\outputs\\matching\\matching_result.json",
+        "recommendations": "..\\outputs\\recommendations\\recommendations.json"
+    },
+    "output_files": {
+        "final_report_json": "..\\outputs\\final_report\\final_report.json",
+        "final_report_markdown": "..\\outputs\\final_report\\final_report.md",
+        "workflow_result": "..\\outputs\\langgraph_workflow\\workflow_result.json",
+        "workflow_log": "..\\outputs\\langgraph_workflow\\workflow_log.md"
+    },
+    "candidate_information": {
+        "candidate_name": "ALEX JOHNSON",
+        "location": "Example City, 10000"
+    },
+    "job_information": {
+        "job_title": "Senior Developer",
+        "company_name": "USLI",
+        "job_category": "Software Development"
+    },
+    "matching_summary": {
+        "final_hybrid_score": 15.55,
+        "rule_based_score": 12.6,
+        "semantic_score": 32.3,
+        "match_category": "Weak match"
+    },
+    "workflow_log": [
+        "2026-07-20T19:14:05 | Workflow started.",
+        "2026-07-20T19:14:05 | All required input files are available.",
+        "2026-07-20T19:14:05 | CV text extracted from PDF successfully.",
+        "2026-07-20T19:14:05 | CV quality analysis loaded successfully.",
+        "2026-07-20T19:14:05 | Structured CV loaded successfully.",
+        "2026-07-20T19:14:05 | Structured job posting loaded successfully.",
+        "2026-07-20T19:14:05 | Hybrid matching result loaded successfully.",
+        "2026-07-20T19:14:05 | Recommendations loaded successfully.",
+        "2026-07-20T19:14:05 | Final report loaded from notebook 10 output.",
+        "2026-07-20T19:14:05 | Workflow completed successfully."
+    ]
+}
