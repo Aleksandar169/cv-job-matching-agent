@@ -1,20 +1,15 @@
 {
+    "candidate_name": null,
+    "professional_title": null,
+    "final_cv_quality_score": 69.75,
+    "cv_quality_category": "Basic CV",
     "overall_summary": "The CV presents a strong candidate profile with relevant education and project experience in software engineering. However, it lacks clarity in the organization of skills and measurable results, which could enhance its impact.",
-    "scores": {
-        "structure_and_readability_score": 70,
-        "completeness_score": 80,
-        "technical_skills_clarity_score": 60,
-        "experience_description_score": 75,
-        "projects_description_score": 80,
-        "measurable_results_score": 40,
-        "it_relevance_score": 85
-    },
-    "strengths": [
+    "top_strengths": [
         "Strong educational background with a high GPA in Software Engineering.",
         "Relevant projects demonstrating practical application of skills in software development.",
         "Clear specialization in Data Structures and Algorithms and System Programming."
     ],
-    "weaknesses": [
+    "top_weaknesses": [
         "Lack of measurable results or quantifiable achievements in project descriptions.",
         "Technical skills section is not well organized, making it harder to read.",
         "No work experience section provided, which is common for students but still a notable absence."
@@ -23,18 +18,15 @@
         "Work experience section is missing, which could provide insight into internships or relevant jobs.",
         "Measurable results or impacts of projects are not included, which would strengthen the CV."
     ],
-    "cv_improvement_recommendations": [
-        "Add a work experience section to highlight any internships or relevant job roles.",
-        "Include measurable outcomes for projects, such as performance improvements or user engagement metrics.",
-        "Reorganize the skills section to group similar skills together for better readability."
-    ],
-    "evidence_notes": [
-        "The candidate's GPA and relevant coursework indicate a strong academic foundation.",
-        "Projects are described with specific technologies and goals, showcasing practical skills.",
-        "The skills section lists various programming languages and concepts but lacks organization."
-    ],
-    "final_cv_quality_score": 69.75,
-    "cv_quality_category": "Basic CV",
+    "cv_quality_scores": {
+        "structure_and_readability_score": 70,
+        "completeness_score": 80,
+        "technical_skills_clarity_score": 60,
+        "experience_description_score": 75,
+        "projects_description_score": 80,
+        "measurable_results_score": 40,
+        "it_relevance_score": 85
+    },
     "cv_quality_weights_used": {
         "structure_and_readability_score": 0.15,
         "completeness_score": 0.15,
@@ -44,5 +36,5 @@
         "measurable_results_score": 0.1,
         "it_relevance_score": 0.05
     },
-    "cv_quality_weighting_note": "CV quality weights are default configurable values."
+    "cv_text_preview": "ALEX JOHNSON\n¢ +1 202-555-0147 | alex.jjohnson@example.com | Example City, 10000\nSOFTWARE ENGINEERING STUDENT\nin| https://www.linkedin.com/in/alex-johnson-example/\nPROFILE\nHighly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical\nEngineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and\nSystem Programming (C/C++, Java,Python). Seeking to leverage advanced technical skills and a robust\nbackground in low-level systems and application development to contribute high-impact solutions to a\nchallenging and innovative engineering environment. Strong communication and teamwork skills\ndeveloped through university projects.\nEDUCATION\nUniversity of Belgrade - School of Electrical Engineering (ETF)\ne Degree: Bachelor of..."
 }

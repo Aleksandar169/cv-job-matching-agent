@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "created_at": "2026-07-19T15:14:58",
-        "matching_type": "hybrid_rule_based_and_llm_semantic_matching",
+        "created_at": "2026-08-08T20:50:29",
+        "matching_type": "hybrid_direct_and_llm_semantic_matching",
         "cv_source": "..\\outputs\\cv_extraction\\structured_cv.json",
         "job_source": "..\\outputs\\job_extraction\\structured_job.json",
         "llm_model": "gpt-4o-mini"
@@ -15,22 +15,48 @@
         "employment_type": "Full-time"
     },
     "final_result": {
-        "final_hybrid_score": 15.55,
-        "rule_based_score": 12.6,
-        "semantic_score": 32.3,
+        "final_hybrid_score": 9.02,
+        "direct_matching_score": 3.45,
+        "semantic_score": 22.0,
         "match_category": "Weak match"
+    },
+    "weights_used": {
+        "direct_matching_weights": {
+            "required_skills_score": 0.35,
+            "technology_score": 0.25,
+            "experience_score": 0.2,
+            "education_score": 0.08,
+            "nice_to_have_score": 0.04,
+            "certification_score": 0.02,
+            "language_score": 0.01
+        },
+        "internal_semantic_matching_weights": {
+            "responsibilities_alignment_score": 0.4,
+            "soft_skills_evidence_score": 0.2,
+            "contextual_experience_alignment_score": 0.25,
+            "semantic_skill_evidence_score": 0.15
+        },
+        "matching_mode_weights": {
+            "direct_matching_score": 0.7,
+            "semantic_score": 0.3
+        },
+        "weighting_note": "Direct matching weights and direct-vs-semantic matching weights are configurable values. Semantic matching weights are internal default values used to compose the semantic score."
     },
     "score_breakdown": {
         "required_skills_score": 0.0,
         "technology_score": 0.0,
         "experience_score": 0,
-        "education_score": 70,
+        "education_score": null,
         "nice_to_have_score": 0.0,
         "certification_score": 100,
         "language_score": 100,
-        "rule_based_score": 12.6,
-        "semantic_score": 32.3,
-        "final_hybrid_score": 15.55
+        "direct_matching_score": 3.45,
+        "responsibilities_alignment_score": 0,
+        "soft_skills_evidence_score": 60,
+        "contextual_experience_alignment_score": 40,
+        "semantic_skill_evidence_score": 0,
+        "semantic_score": 22.0,
+        "final_hybrid_score": 9.02
     },
     "matched_items": {
         "matched_required_skills": [],
@@ -88,13 +114,11 @@
         "cv_education": [
             "University of Belgrade - School of Electrical Engineering (ETF) Bachelor of Science (B.Sc.) Software Engineering  June 2027"
         ],
-        "education_score": 70,
-        "education_note": "Education is present in the CV, but detailed equivalence should be reviewed manually."
+        "education_score": null,
+        "education_note": "Education is present in the CV, but direct matching cannot reliably determine whether it is equivalent to the job education requirement. This component should be reviewed semantically or manually."
     },
     "semantic_analysis": {
-        "responsibilities_alignment_score": 20,
-        "soft_skills_evidence_score": 61,
-        "role_fit_summary": "The candidate shows very limited alignment with the job responsibilities, primarily due to a lack of relevant work experience and specific technical skills required for the Senior Developer role. However, the candidate demonstrates some soft skills such as teamwork and communication through university projects, which may be beneficial in a collaborative environment. The most significant gaps are in the technical skills and experience level required for the position.",
+        "role_fit_summary": "The candidate, Alex Johnson, is a third-year Software Engineering student with a strong academic background and relevant project experience in programming and algorithms. However, the job posting for a Senior Developer requires extensive experience (10+ years) and specific technologies (e.g., ASP.NET, C#, MVC) that are not present in the CV. Therefore, while the candidate shows potential in foundational programming and problem-solving skills, they do not meet the seniority level or specific technology requirements for this role.",
         "responsibilities_evidenced": [],
         "responsibilities_not_evidenced": [
             "Day to day oversight and direction on medium size team initiatives",
@@ -116,8 +140,25 @@
             "Strong problem solving skills",
             "Ability and desire to learn new technologies rapidly"
         ],
+        "contextual_experience_evidence": [
+            "Developed a foundational kernel model demonstrating core OS concepts, focusing on memory management and low-level hardware interaction.",
+            "Created a command-line interpreter applying advanced OOP principles in C++, showcasing design and modularity.",
+            "Developed a GUI flight simulator using Java, adhering to OOP principles for scalable design.",
+            "Implemented performance-critical algorithms for data structures, demonstrating algorithmic efficiency."
+        ],
+        "contextual_experience_gaps": [
+            "No evidence of experience in a senior development role or team leadership.",
+            "Lack of experience with specific technologies and frameworks mentioned in the job posting (e.g., ASP.NET, C#).",
+            "No evidence of mentoring or managing team members."
+        ],
+        "semantic_skill_evidence": [],
+        "possible_direct_matching_false_negatives": [],
+        "responsibilities_alignment_score": 0,
+        "soft_skills_evidence_score": 60,
+        "contextual_experience_alignment_score": 40,
+        "semantic_skill_evidence_score": 0,
         "evidence_notes": [
-            "The candidate's CV does not provide any work experience, which is critical for the responsibilities of a Senior Developer role. The responsibilities listed in the job posting require significant experience in software development and team management, which the candidate lacks. The soft skills of communication and teamwork are evidenced through university projects, but other soft skills such as conflict resolution and customer service are not clearly evidenced. Overall, the candidate is not a fit for the technical requirements of the position."
+            "The candidate has strong communication and teamwork skills evidenced through university projects, but lacks the extensive experience and specific technical skills required for the Senior Developer role. Responsibilities from the job posting are not evidenced in the CV, and the candidate's experience is primarily academic with no professional work history."
         ]
     }
 }

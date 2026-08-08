@@ -22,8 +22,9 @@
 
 ## 3. CV Quality Summary
 
-- Final CV quality score: 70/100
-- CV quality category: Good CV
+- Final CV quality score: 69.75/100
+- CV quality category: Basic CV
+- CV quality score note: None
 
 ### Overall CV Quality Summary
 
@@ -37,7 +38,7 @@ The CV presents a strong candidate profile with relevant education and project e
 - Experience description: 75/100
 - Projects description: 80/100
 - Measurable results: 40/100
-- IT relevance: 80/100
+- IT relevance: 85/100
 
 ### CV Strengths
 
@@ -47,19 +48,20 @@ The CV presents a strong candidate profile with relevant education and project e
 
 ### CV Weaknesses
 
-- Skills section lacks clear organization and grouping of technical skills.
-- No measurable results or quantifiable achievements are provided in project descriptions.
+- Lack of measurable results or quantifiable achievements in project descriptions.
+- Technical skills section is not well organized, making it harder to read.
+- No work experience section provided, which is common for students but still a notable absence.
 
 ### Missing or Unclear CV Sections
 
-- Specific details on internships or work experience are missing.
-- Measurable outcomes or impacts of projects are not included.
+- Work experience section is missing, which could provide insight into internships or relevant jobs.
+- Measurable results or impacts of projects are not included, which would strengthen the CV.
 
 ## 4. Final Matching Summary
 
-- Final hybrid match score: 15.55/100
-- Rule-based score: 12.6/100
-- LLM semantic score: 32.3/100
+- Final hybrid match score: 9.02/100
+- Direct matching score: 3.45/100
+- LLM semantic score: 22.0/100
 - Match category: Weak match
 
 ### Score Breakdown
@@ -67,12 +69,12 @@ The CV presents a strong candidate profile with relevant education and project e
 - Required skills score: 0.0/100
 - Technology score: 0.0/100
 - Experience score: 0/100
-- Education score: 70/100
+- Education score: Not available
 - Nice-to-have score: 0.0/100
 - Certification score: 100/100
 - Language score: 100/100
 
-## 5. Rule-Based Matching Details
+## 5. Direct Matching Details
 
 ### Matched Required Skills
 
@@ -125,15 +127,15 @@ The CV presents a strong candidate profile with relevant education and project e
 
 ### Role Fit Summary
 
-The candidate shows very limited alignment with the job responsibilities, primarily due to a lack of relevant work experience and specific technical skills required for the Senior Developer role. However, the candidate demonstrates some soft skills such as teamwork and communication through university projects, which may be beneficial in a collaborative environment. The most significant gaps are in the technical skills and experience level required for the position.
+The candidate, Alex Johnson, is a third-year Software Engineering student with a strong academic background and relevant project experience in programming and algorithms. However, the job posting for a Senior Developer requires extensive experience (10+ years) and specific technologies (e.g., ASP.NET, C#, MVC) that are not present in the CV. Therefore, while the candidate shows potential in foundational programming and problem-solving skills, they do not meet the seniority level or specific technology requirements for this role.
 
 ### Responsibilities Alignment Score
 
-20/100
+0/100
 
 ### Soft Skills Evidence Score
 
-61/100
+60/100
 
 ### Responsibilities Evidenced in CV
 
@@ -164,149 +166,122 @@ The candidate shows very limited alignment with the job responsibilities, primar
 
 ### Semantic Evidence Notes
 
-- The candidate's CV does not provide any work experience, which is critical for the responsibilities of a Senior Developer role. The responsibilities listed in the job posting require significant experience in software development and team management, which the candidate lacks. The soft skills of communication and teamwork are evidenced through university projects, but other soft skills such as conflict resolution and customer service are not clearly evidenced. Overall, the candidate is not a fit for the technical requirements of the position.
+- The candidate has strong communication and teamwork skills evidenced through university projects, but lacks the extensive experience and specific technical skills required for the Senior Developer role. Responsibilities from the job posting are not evidenced in the CV, and the candidate's experience is primarily academic with no professional work history.
 
 ## 7. Recommendation Summary
 
 ### Overall Recommendation Summary
 
-To improve your CV and job matching for the Senior Developer position, focus on developing the required technical skills, enhancing the clarity and organization of your CV, and gaining relevant work experience.
+To improve your CV and job matching for the Senior Developer position, focus on gaining relevant technical skills, enhancing your CV structure, and providing measurable results for your projects.
 
 ## 8. CV Improvement Recommendations
 
-### 1. Organize Technical Skills
+### 1. Add Work Experience Section
 
-- Priority: High
-- Recommendation: Group your technical skills into categories such as Programming Languages, Frameworks, and Tools to enhance clarity.
-- Reason: The current skills section lacks organization, making it difficult for recruiters to quickly identify your competencies.
-- Evidence: The CV quality analysis indicates that the skills section lacks clear organization and grouping.
+- Reason: Including a work experience section can provide insight into any internships or relevant job roles, which is crucial for a senior position that requires extensive experience.
+- Evidence: The CV currently lacks a work experience section, which is common for students but still a notable absence for a senior role.
+- Recommended actions:
+  - Create a Work Experience Section
+    - Description: If you have completed internships or relevant job roles, add a work experience section to your CV detailing your responsibilities and achievements.
+    - Expected impact: This will enhance your CV's completeness and demonstrate your practical experience in software development.
+    - Priority: High
 
-### 2. Add Measurable Results to Projects
+### 2. Include Measurable Outcomes for Projects
 
-- Priority: High
-- Recommendation: Include measurable outcomes or impacts for each project to demonstrate effectiveness and contributions.
-- Reason: Measurable results can significantly enhance the impact of your projects and show potential employers the value you can bring.
-- Evidence: The CV quality analysis notes that no measurable results or quantifiable achievements are provided in project descriptions.
+- Reason: Adding measurable outcomes for your projects can significantly strengthen your CV by showcasing the impact of your work.
+- Evidence: The CV does not include measurable results or quantifiable achievements in project descriptions, which weakens its impact.
+- Recommended actions:
+  - Quantify Project Results
+    - Description: For each project, add measurable outcomes such as performance improvements, user engagement metrics, or any other relevant statistics that demonstrate the success of your projects.
+    - Expected impact: This will improve the CV's effectiveness and provide concrete evidence of your skills and contributions.
+    - Priority: High
 
-### 3. Include Relevant Work Experience
+### 3. Reorganize Skills Section
 
-- Priority: High
-- Recommendation: Consider adding any relevant internships or work experience to enhance the CV's completeness.
-- Reason: The job posting requires significant experience, which is currently missing from your CV, making it a weak match for the position.
-- Evidence: The CV does not provide any work experience, which is critical for the responsibilities of a Senior Developer role.
+- Reason: A well-organized skills section improves readability and allows recruiters to quickly identify your relevant skills.
+- Evidence: The technical skills section is not well organized, making it harder to read and assess your qualifications.
+- Recommended actions:
+  - Group Similar Skills Together
+    - Description: Reorganize your technical skills by grouping similar skills together (e.g., programming languages, frameworks, tools) to enhance clarity and readability.
+    - Expected impact: This will improve the CV's structure and make it easier for recruiters to identify your relevant skills.
+    - Priority: Medium
 
 
 ## 9. Missing Required Skills Recommendations
 
 ### 1. ASP.NET
 
-- Priority: High
 - Current status: not evidenced in CV
-- Development recommendation: Consider taking an online course or tutorial on ASP.NET to build foundational knowledge and skills.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
+- Evidence: The job posting requires ASP.NET, which is not mentioned in the CV.
+- Recommended actions:
+  - Learn ASP.NET
+    - Description: Consider taking an online course or tutorial to learn ASP.NET, as it is a key requirement for the Senior Developer role.
+    - Expected impact: This will help you acquire a critical skill needed for the job and improve your job matching potential.
+    - Priority: High
 
 ### 2. C#
 
-- Priority: High
 - Current status: not evidenced in CV
-- Development recommendation: Learn C# through online resources or projects to gain practical experience.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
+- Evidence: C# is required for the job but is not listed in the CV.
+- Recommended actions:
+  - Learn C#
+    - Description: Consider learning C# through online resources or courses, as it is essential for the Senior Developer position.
+    - Expected impact: This will enhance your technical skill set and align you more closely with job requirements.
+    - Priority: High
 
 ### 3. MVC
 
-- Priority: High
 - Current status: not evidenced in CV
-- Development recommendation: Familiarize yourself with the MVC framework by building a small web application.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
+- Evidence: MVC is a required skill for the job but is not mentioned in the CV.
+- Recommended actions:
+  - Learn MVC Framework
+    - Description: If you have experience with MVC, add it to your CV. Otherwise, consider learning the MVC framework to meet job requirements.
+    - Expected impact: This will improve your fit for the Senior Developer role by aligning your skills with job expectations.
+    - Priority: High
 
-### 4. Object Oriented Design/Development
+### 4. JavaScript
 
-- Priority: High
 - Current status: not evidenced in CV
-- Development recommendation: Study Object-Oriented Design principles and apply them in your projects to strengthen your understanding.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
+- Evidence: JavaScript is required for the job but is not listed in the CV.
+- Recommended actions:
+  - Learn JavaScript
+    - Description: Consider taking a course in JavaScript, as it is a key requirement for the Senior Developer position.
+    - Expected impact: This will enhance your technical skills and improve your job matching potential.
+    - Priority: High
 
-### 5. VB.NET
+### 5. SQL Server
 
-- Priority: High
 - Current status: not evidenced in CV
-- Development recommendation: Explore VB.NET through tutorials or projects to gain familiarity with the language.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
-
-### 6. Agile
-
-- Priority: High
-- Current status: not evidenced in CV
-- Development recommendation: Learn about Agile methodologies and consider participating in Agile projects or simulations.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
-
-### 7. SCRUM
-
-- Priority: High
-- Current status: not evidenced in CV
-- Development recommendation: Consider obtaining a SCRUM certification or participating in SCRUM training.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
-
-### 8. JavaScript
-
-- Priority: High
-- Current status: not evidenced in CV
-- Development recommendation: Learn JavaScript through online courses and practice by building small web applications.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
-
-### 9. jQuery
-
-- Priority: High
-- Current status: not evidenced in CV
-- Development recommendation: Familiarize yourself with jQuery by integrating it into your JavaScript projects.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
-
-### 10. JSON
-
-- Priority: Medium
-- Current status: not evidenced in CV
-- Development recommendation: Learn about JSON and practice using it in your projects for data interchange.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
-
-### 11. Knockout.js
-
-- Priority: Medium
-- Current status: not evidenced in CV
-- Development recommendation: Explore Knockout.js through tutorials and apply it in a project to understand its use in MVVM architecture.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
-
-### 12. Angular.js
-
-- Priority: Medium
-- Current status: not evidenced in CV
-- Development recommendation: Learn Angular.js by building a small application to understand its framework and components.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
-
-### 13. HTML5
-
-- Priority: Medium
-- Current status: not evidenced in CV
-- Development recommendation: Familiarize yourself with HTML5 features and practice by creating web pages.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
-
-### 14. SQL Server
-
-- Priority: Medium
-- Current status: not evidenced in CV
-- Development recommendation: Learn SQL Server through online courses and practice by creating and managing databases.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
-
-### 15. SQL/XML
-
-- Priority: Medium
-- Current status: not evidenced in CV
-- Development recommendation: Study SQL/XML and practice using it in database projects.
-- CV update recommendation: If this is true, add it clearly to the CV with evidence of coursework or projects.
+- Evidence: SQL Server is required for the job but is not mentioned in the CV.
+- Recommended actions:
+  - Learn SQL Server
+    - Description: Consider learning SQL Server through online courses or tutorials, as it is essential for the Senior Developer role.
+    - Expected impact: This will improve your technical skill set and align you more closely with job requirements.
+    - Priority: High
 
 
 ## 10. Technical Development Recommendations
 
-- No technical development recommendations.
+### 1. Agile
+
+- Current status: not evidenced in CV
+- Evidence: Agile methodologies are mentioned in the job posting but are not evidenced in the CV.
+- Recommended actions:
+  - Learn Agile Methodologies
+    - Description: Consider studying Agile methodologies and possibly obtaining a certification, as this is a valuable skill for software development roles.
+    - Expected impact: This will enhance your understanding of modern software development practices and improve your job fit.
+    - Priority: Medium
+
+### 2. SCRUM
+
+- Current status: not evidenced in CV
+- Evidence: SCRUM is a required skill for the job but is not mentioned in the CV.
+- Recommended actions:
+  - Learn SCRUM Framework
+    - Description: Consider learning about the SCRUM framework and its practices, as it is important for the Senior Developer role.
+    - Expected impact: This will improve your alignment with job requirements and enhance your project management skills.
+    - Priority: Medium
+
 
 ## 11. Project Recommendations
 
@@ -314,33 +289,60 @@ To improve your CV and job matching for the Senior Developer position, focus on 
 
 ## 12. Soft Skills Recommendations
 
-### 1. Evidencing Additional Soft Skills
+### 1. Evidencing Soft Skills
 
-- Priority: Medium
-- Recommendation: Consider providing examples of how you have resolved team conflicts or demonstrated customer service skills in your projects or coursework.
-- Reason: The job posting emphasizes the importance of soft skills such as conflict resolution and customer service, which are not clearly evidenced in your CV.
-- Evidence: The CV shows strong communication and teamwork but lacks evidence for other soft skills required for the position.
+- Reason: Demonstrating soft skills through specific examples can strengthen your CV and align it with job requirements.
+- Evidence: While you have listed strong communication and teamwork skills, there are no specific examples provided in the CV.
+- Recommended actions:
+  - Add Examples of Soft Skills
+    - Description: Include specific examples from your projects or university experiences that demonstrate your communication, teamwork, and problem-solving skills.
+    - Expected impact: This will provide concrete evidence of your soft skills and improve your overall CV quality.
+    - Priority: Medium
 
 
 ## 13. Priority Actions
 
-1. Develop required technical skills such as C#, ASP.NET, and JavaScript through online courses or projects.
+1. Learn ASP.NET
+   - Description: Consider taking an online course or tutorial to learn ASP.NET, as it is a key requirement for the Senior Developer role.
    - Priority: High
-   - Expected impact: This will address the significant gaps in required skills for the Senior Developer position, improving job match potential.
-2. Organize and enhance your CV by grouping skills and adding measurable results to projects.
+   - Expected impact: This will help you acquire a critical skill needed for the job and improve your job matching potential.
+2. Quantify Project Results
+   - Description: For each project, add measurable outcomes such as performance improvements, user engagement metrics, or any other relevant statistics that demonstrate the success of your projects.
    - Priority: High
-   - Expected impact: Improving CV clarity and impact will make it more appealing to recruiters and increase your chances of being considered for roles.
-3. Seek internships or relevant work experience to build your professional background in software development.
+   - Expected impact: This will improve the CV's effectiveness and provide concrete evidence of your skills and contributions.
+3. Create a Work Experience Section
+   - Description: If you have completed internships or relevant job roles, add a work experience section to your CV detailing your responsibilities and achievements.
    - Priority: High
-   - Expected impact: Gaining practical experience will help meet the job's experience requirements and strengthen your overall profile.
+   - Expected impact: This will enhance your CV's completeness and demonstrate your practical experience in software development.
 
-## 14. Evidence-Based Notes and Limitations
+## 14. Methodology Notes and Limitations
 
-- The candidate's CV does not provide any work experience, which is critical for the responsibilities of a Senior Developer role.
-- The job posting requires significant experience in software development, which the candidate lacks.
-- The candidate demonstrates some soft skills through university projects, but other soft skills such as conflict resolution and customer service are not clearly evidenced.
+- The recommendations are based solely on the provided CV, job posting, and quality analysis. No assumptions about the candidate's skills or experiences have been made beyond what is evidenced.
 
-## 15. Final Conclusion
+## 15. Weighting Summary
+
+### CV Quality Weights
+
+- structure_and_readability_score: 0.15
+- completeness_score: 0.15
+- technical_skills_clarity_score: 0.2
+- experience_description_score: 0.2
+- projects_description_score: 0.15
+- measurable_results_score: 0.1
+- it_relevance_score: 0.05
+
+### CV Quality Weighting Note
+
+CV quality weights are default configurable values.
+
+### Matching Weights
+
+- direct_matching_weights: {'required_skills_score': 0.35, 'technology_score': 0.25, 'experience_score': 0.2, 'education_score': 0.08, 'nice_to_have_score': 0.04, 'certification_score': 0.02, 'language_score': 0.01}
+- internal_semantic_matching_weights: {'responsibilities_alignment_score': 0.4, 'soft_skills_evidence_score': 0.2, 'contextual_experience_alignment_score': 0.25, 'semantic_skill_evidence_score': 0.15}
+- matching_mode_weights: {'direct_matching_score': 0.7, 'semantic_score': 0.3}
+- weighting_note: Direct matching weights and direct-vs-semantic matching weights are configurable values. Semantic matching weights are internal default values used to compose the semantic score.
+
+## 16. Final Conclusion
 
 This report combines CV quality analysis, structured CV extraction, structured job posting extraction, hybrid CV-job matching and recommendation generation.
 

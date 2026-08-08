@@ -1,0 +1,19 @@
+{
+    "ranked_matches": [
+        {
+            "job_id": "job_001",
+            "job_information": {
+                "job_title": "Senior Developer",
+                "company_name": "USLI",
+                "job_category": "Software Development",
+                "location": null,
+                "work_mode": "On-site 75% of the time",
+                "employment_type": "Full-time"
+            },
+            "final_hybrid_score": 9.02,
+            "direct_matching_score": 3.45,
+            "semantic_score": 22.0,
+            "match_category": "Weak match"
+        }
+    ]
+}

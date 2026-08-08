@@ -12,17 +12,43 @@
 
 ## Final Hybrid Matching Result
 
-- Final hybrid match score: 15.55/100
+- Final hybrid match score: 9.02/100
 - Match category: Weak match
-- Rule-based score: 12.6/100
-- LLM semantic score: 32.3/100
+- Direct matching score: 3.45/100
+- LLM semantic score: 22.0/100
 
-## Rule-Based Score Breakdown
+## Weighting Note
+
+Direct matching weights and direct-vs-semantic matching weights are configurable values. Semantic matching weights are internal default values used to compose the semantic score.
+
+## Direct Matching Weights Used
+
+- Required Skills Score: 0.35
+- Technology Score: 0.25
+- Experience Score: 0.2
+- Education Score: 0.08
+- Nice To Have Score: 0.04
+- Certification Score: 0.02
+- Language Score: 0.01
+
+## Semantic Matching Weights Used
+
+- Responsibilities Alignment Score: 0.4
+- Soft Skills Evidence Score: 0.2
+- Contextual Experience Alignment Score: 0.25
+- Semantic Skill Evidence Score: 0.15
+
+## Matching Mode Weights Used
+
+- Direct Matching Score: 0.7
+- Semantic Score: 0.3
+
+## Direct Matching Score Breakdown
 
 - Required skills score: 0.0/100
 - Technology score: 0.0/100
 - Experience score: 0/100
-- Education score: 70/100
+- Education score: Not included in score
 - Nice-to-have score: 0.0/100
 - Certification score: 100/100
 - Language score: 100/100
@@ -83,8 +109,8 @@
 
 ## Education Analysis
 
-- Education score: 70/100
-- Note: Education is present in the CV, but detailed equivalence should be reviewed manually.
+- Education score: Not included in score
+- Note: Education is present in the CV, but direct matching cannot reliably determine whether it is equivalent to the job education requirement. This component should be reviewed semantically or manually.
 
 ## Certifications
 
@@ -110,7 +136,7 @@
 
 ### Role Fit Summary
 
-The candidate shows very limited alignment with the job responsibilities, primarily due to a lack of relevant work experience and specific technical skills required for the Senior Developer role. However, the candidate demonstrates some soft skills such as teamwork and communication through university projects, which may be beneficial in a collaborative environment. The most significant gaps are in the technical skills and experience level required for the position.
+The candidate, Alex Johnson, is a third-year Software Engineering student with a strong academic background and relevant project experience in programming and algorithms. However, the job posting for a Senior Developer requires extensive experience (10+ years) and specific technologies (e.g., ASP.NET, C#, MVC) that are not present in the CV. Therefore, while the candidate shows potential in foundational programming and problem-solving skills, they do not meet the seniority level or specific technology requirements for this role.
 
 ### Responsibilities Evidenced in CV
 
@@ -141,4 +167,32 @@ The candidate shows very limited alignment with the job responsibilities, primar
 
 ### Evidence Notes
 
-- The candidate's CV does not provide any work experience, which is critical for the responsibilities of a Senior Developer role. The responsibilities listed in the job posting require significant experience in software development and team management, which the candidate lacks. The soft skills of communication and teamwork are evidenced through university projects, but other soft skills such as conflict resolution and customer service are not clearly evidenced. Overall, the candidate is not a fit for the technical requirements of the position.
+- The candidate has strong communication and teamwork skills evidenced through university projects, but lacks the extensive experience and specific technical skills required for the Senior Developer role. Responsibilities from the job posting are not evidenced in the CV, and the candidate's experience is primarily academic with no professional work history.
+### Contextual Experience Alignment Score
+
+40/100
+
+### Semantic Skill Evidence Score
+
+0/100
+
+### Contextual Experience Evidence
+
+- Developed a foundational kernel model demonstrating core OS concepts, focusing on memory management and low-level hardware interaction.
+- Created a command-line interpreter applying advanced OOP principles in C++, showcasing design and modularity.
+- Developed a GUI flight simulator using Java, adhering to OOP principles for scalable design.
+- Implemented performance-critical algorithms for data structures, demonstrating algorithmic efficiency.
+
+### Contextual Experience Gaps
+
+- No evidence of experience in a senior development role or team leadership.
+- Lack of experience with specific technologies and frameworks mentioned in the job posting (e.g., ASP.NET, C#).
+- No evidence of mentoring or managing team members.
+
+### Semantic Skill Evidence
+
+- No semantic skill evidence listed.
+
+### Possible Direct Matching False Negatives
+
+- No possible direct matching false negatives identified.
