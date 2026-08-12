@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "created_at": "2026-08-12T22:51:56",
+        "created_at": "2026-08-12T23:22:10",
         "statistics_type": "job_market_statistics_from_analyzed_jobs",
         "weighted_by_submission_count": true,
         "source": "MongoDB analyzed_jobs or provided job documents",
@@ -8,11 +8,11 @@
         "end_date": null
     },
     "metrics": {
-        "unique_jobs_count": 4,
-        "total_submissions": 5,
-        "most_requested_skill": "JavaScript",
+        "unique_jobs_count": 5,
+        "total_submissions": 12,
+        "most_requested_skill": "Java",
         "top_job_category": "Software Development",
-        "average_required_skills_count": 13.5
+        "average_required_skills_count": 12.2
     },
     "monthly_unique_jobs": [
         {
@@ -21,7 +21,7 @@
         },
         {
             "month": "2026-08",
-            "unique_jobs_count": 2
+            "unique_jobs_count": 3
         }
     ],
     "monthly_submissions": [
@@ -31,16 +31,20 @@
         },
         {
             "month": "2026-08",
-            "submission_count": 3
+            "submission_count": 10
         }
     ],
     "jobs_by_category": [
         {
             "job_category": "Software Development",
-            "count": 4
+            "count": 11
         }
     ],
     "jobs_by_work_mode": [
+        {
+            "work_mode": "Hybrid",
+            "count": 3
+        },
         {
             "work_mode": "Remote",
             "count": 1
@@ -53,7 +57,7 @@
     "jobs_by_employment_type": [
         {
             "employment_type": "Full-time",
-            "count": 3
+            "count": 10
         },
         {
             "employment_type": "Freelance",
@@ -62,104 +66,104 @@
     ],
     "most_requested_required_skills": [
         {
+            "skill": "Java",
+            "count": 9
+        },
+        {
             "skill": "JavaScript",
-            "count": 4
+            "count": 8
         },
         {
             "skill": "Python",
-            "count": 3
-        },
-        {
-            "skill": "HTML5",
-            "count": 2
-        },
-        {
-            "skill": "Java",
-            "count": 2
+            "count": 7
         },
         {
             "skill": "Core Java",
-            "count": 2
+            "count": 6
         },
         {
             "skill": "C++",
-            "count": 2
+            "count": 6
         },
         {
             "skill": "Spring Boot",
-            "count": 2
+            "count": 6
         },
         {
             "skill": "Microservices",
-            "count": 2
+            "count": 6
         },
         {
             "skill": "Docker",
-            "count": 2
+            "count": 6
         },
         {
             "skill": "Jenkins",
-            "count": 2
+            "count": 6
+        },
+        {
+            "skill": "REST APIs",
+            "count": 6
         }
     ],
     "most_requested_nice_to_have_skills": [
         {
             "skill": "NLP",
-            "count": 2
+            "count": 6
         },
         {
             "skill": "Text mining",
-            "count": 2
+            "count": 6
         },
         {
             "skill": "Tableau",
-            "count": 2
+            "count": 6
         },
         {
             "skill": "PowerBI",
-            "count": 2
+            "count": 6
         },
         {
             "skill": "TensorFlow",
-            "count": 2
-        },
-        {
-            "skill": "Emerging Microsoft technologies",
-            "count": 1
-        },
-        {
-            "skill": "RTOS",
-            "count": 1
-        },
-        {
-            "skill": "communication subsystems",
-            "count": 1
+            "count": 6
         },
         {
             "skill": "Python",
-            "count": 1
+            "count": 4
         },
         {
-            "skill": "automated code generation",
-            "count": 1
+            "skill": "Spring Boot",
+            "count": 3
+        },
+        {
+            "skill": "Docker",
+            "count": 3
+        },
+        {
+            "skill": "Jenkins",
+            "count": 3
+        },
+        {
+            "skill": "Microservices",
+            "count": 3
         }
     ],
     "most_requested_programming_languages": [
         {
-            "programming_language": "JavaScript",
-            "count": 4
-        },
-        {
             "programming_language": "Python",
-            "count": 4
-        },
-        {
-            "programming_language": "C++",
-            "count": 3
+            "count": 11
         },
         {
             "programming_language": "Java",
-            "count": 2
+            "count": 9
+        },
+        {
+            "programming_language": "JavaScript",
+            "count": 8
+        },
+        {
+            "programming_language": "C++",
+            "count": 7
         },
         {
             "programming_language": "TypeScript",
@@ -181,7 +185,7 @@
     "most_requested_frameworks_and_libraries": [
         {
             "framework_or_library": "Spring Boot",
-            "count": 2
+            "count": 9
         },
         {
             "framework_or_library": "React",
@@ -222,6 +226,10 @@
     ],
     "most_requested_databases": [
         {
+            "database": "SQL",
+            "count": 3
+        },
+        {
             "database": "PostgreSQL",
             "count": 1
         },
@@ -237,11 +245,11 @@
     "most_requested_cloud_and_devops_tools": [
         {
             "cloud_or_devops_tool": "Docker",
-            "count": 2
+            "count": 9
         },
         {
             "cloud_or_devops_tool": "Jenkins",
-            "count": 2
+            "count": 9
         },
         {
             "cloud_or_devops_tool": "AWS",
@@ -259,14 +267,26 @@
     "most_requested_data_and_ai_tools": [
         {
             "data_or_ai_tool": "SAS",
-            "count": 2
+            "count": 6
         },
         {
             "data_or_ai_tool": "TensorFlow",
-            "count": 2
+            "count": 6
         }
     ],
     "top_it_roles": [
+        {
+            "role": "Junior Java Backend Developer",
+            "count": 3,
+            "demand_level": "Low",
+            "top_required_skills": [
+                "Java",
+                "Object-Oriented Programming",
+                "SQL",
+                "Git",
+                "REST API basics"
+            ]
+        },
         {
             "role": "Freelance Full-Stack Software Engineer",
             "count": 1,
