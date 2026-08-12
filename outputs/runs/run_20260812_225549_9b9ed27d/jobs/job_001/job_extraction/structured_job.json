@@ -1,0 +1,103 @@
+{
+    "job_title": null,
+    "company_name": "SynergisticIT",
+    "location": null,
+    "work_mode": null,
+    "employment_type": "Full-time",
+    "job_category": "Software Development",
+    "required_skills": [
+        "Java",
+        "Core Java",
+        "JavaScript",
+        "C++",
+        "Spring Boot",
+        "Microservices",
+        "Docker",
+        "Jenkins",
+        "REST APIs",
+        "Statistics",
+        "SAS",
+        "Python",
+        "Computer Vision",
+        "data visualization tools",
+        "Excellent written and verbal communication skills"
+    ],
+    "nice_to_have_skills": [
+        "NLP",
+        "Text mining",
+        "Tableau",
+        "PowerBI",
+        "TensorFlow"
+    ],
+    "programming_languages": [
+        "Java",
+        "JavaScript",
+        "C++",
+        "Python"
+    ],
+    "frameworks_and_libraries": [
+        "Spring Boot"
+    ],
+    "databases": [],
+    "cloud_and_devops_tools": [
+        "Docker",
+        "Jenkins"
+    ],
+    "data_and_ai_tools": [
+        "SAS",
+        "TensorFlow"
+    ],
+    "testing_tools": [],
+    "other_tools": [],
+    "responsibilities": [],
+    "experience_requirements": [
+        {
+            "minimum_years": null,
+            "seniority_level": "Entry-level",
+            "related_area_or_skill": "Software Development",
+            "experience_description": "Experience in programming language Java and understanding of the software development life cycle",
+            "is_required": true
+        },
+        {
+            "minimum_years": null,
+            "seniority_level": "Entry-level",
+            "related_area_or_skill": "Data Science/Machine Learning",
+            "experience_description": "Experience in programming language Java and understanding of the software development life cycle",
+            "is_required": true
+        }
+    ],
+    "education_requirements": [
+        {
+            "degree_required": "Bachelors degree or Masters degree",
+            "field_of_study": "Computer Science, Computer Engineering, Electrical Engineering, Information Systems, IT",
+            "education_description": "Bachelors degree or Masters degree in Computer Science, Computer Engineering, Electrical Engineering, Information Systems, IT",
+            "is_required": true
+        },
+        {
+            "degree_required": "Bachelors degree or Masters degree",
+            "field_of_study": "Computer Science, Computer Engineering, Electrical Engineering, Information Systems, IT",
+            "education_description": "Bachelors degree or Masters degree in Computer Science, Computer Engineering, Electrical Engineering, Information Systems, IT",
+            "is_required": true
+        }
+    ],
+    "certifications": [],
+    "language_requirements": [],
+    "soft_skills": [
+        "Highly motivated",
+        "self-learner",
+        "technically inquisitive"
+    ],
+    "unclear_or_missing_information": [
+        "Specific job title for the positions is not mentioned.",
+        "Location of the job is not specified."
+    ],
+    "metadata": {
+        "job_key": "text_hash_21601969447ad8e90ac4a68bfebbe60a00beb53690b5bd255118db4069e3be18",
+        "model": "gpt-4o-mini",
+        "extraction_type": "structured_job_extraction",
+        "source": "streamlit_user_input",
+        "source_file": null,
+        "source_row_index": null,
+        "notes": "Only information visible in the job posting text should be included."
+    }
+}

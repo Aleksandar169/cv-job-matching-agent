@@ -1,0 +1,131 @@
+{
+    "job_title": null,
+    "company_name": "Typhoon HIL",
+    "location": null,
+    "work_mode": null,
+    "employment_type": null,
+    "job_category": null,
+    "required_skills": [
+        "C/C++ programming",
+        "embedded systems",
+        "automotive Ethernet",
+        "CAN-based communication protocols",
+        "Linux operating systems",
+        "bare-metal development",
+        "version control systems (Git, SVN)",
+        "embedded Linux ecosystem"
+    ],
+    "nice_to_have_skills": [
+        "RTOS",
+        "communication subsystems",
+        "Python",
+        "automated code generation",
+        "MATLAB/Simulink",
+        "German"
+    ],
+    "programming_languages": [
+        "C",
+        "C++",
+        "Python"
+    ],
+    "frameworks_and_libraries": [],
+    "databases": [],
+    "cloud_and_devops_tools": [],
+    "data_and_ai_tools": [],
+    "testing_tools": [],
+    "other_tools": [],
+    "responsibilities": [
+        "Develop and maintain embedded software on SoC platforms",
+        "Design, implement, and debug communication subsystems based on Ethernet and other relevant communication interfaces",
+        "Work within a multidisciplinary team of electronics engineers, software and firmware developers, power engineering and power electronics specialists"
+    ],
+    "experience_requirements": [
+        {
+            "minimum_years": null,
+            "seniority_level": null,
+            "related_area_or_skill": "embedded software",
+            "experience_description": "Strong background in C/C++ programming and understanding of embedded systems",
+            "is_required": true
+        },
+        {
+            "minimum_years": null,
+            "seniority_level": null,
+            "related_area_or_skill": "communication protocols",
+            "experience_description": "Knowledge of automotive/industrial Ethernet and CAN-based communication protocols",
+            "is_required": true
+        },
+        {
+            "minimum_years": null,
+            "seniority_level": null,
+            "related_area_or_skill": "Linux",
+            "experience_description": "Knowledge of Linux operating systems and/or bare-metal development",
+            "is_required": true
+        },
+        {
+            "minimum_years": null,
+            "seniority_level": null,
+            "related_area_or_skill": "version control",
+            "experience_description": "Proficiency with version control systems (Git, SVN)",
+            "is_required": true
+        },
+        {
+            "minimum_years": null,
+            "seniority_level": null,
+            "related_area_or_skill": "embedded Linux",
+            "experience_description": "Experience with the embedded Linux ecosystem — kernel drivers, build systems (Yocto, Buildroot)",
+            "is_required": false
+        },
+        {
+            "minimum_years": null,
+            "seniority_level": null,
+            "related_area_or_skill": "SoC platforms",
+            "experience_description": "Experience with heterogeneous SoC platforms combining processor cores and FPGA fabric (e.g. Xilinx Zynq/ZynqMP)",
+            "is_required": false
+        },
+        {
+            "minimum_years": null,
+            "seniority_level": null,
+            "related_area_or_skill": "RTOS",
+            "experience_description": "RTOS experience",
+            "is_required": false
+        },
+        {
+            "minimum_years": null,
+            "seniority_level": null,
+            "related_area_or_skill": "test automation",
+            "experience_description": "Knowledge of Python for tooling and test automation",
+            "is_required": false
+        },
+        {
+            "minimum_years": null,
+            "seniority_level": null,
+            "related_area_or_skill": "code generation",
+            "experience_description": "Experience with automated code generation and MATLAB/Simulink software package",
+            "is_required": false
+        },
+        {
+            "minimum_years": null,
+            "seniority_level": null,
+            "related_area_or_skill": "language skills",
+            "experience_description": "Knowledge of German",
+            "is_required": false
+        }
+    ],
+    "education_requirements": [],
+    "certifications": [],
+    "language_requirements": [
+        "English",
+        "German"
+    ],
+    "soft_skills": [],
+    "unclear_or_missing_information": [],
+    "metadata": {
+        "job_key": "text_hash_98cd425badd885f5966b417d6feace3c2062eec3f89ac95bc72fb7529053513b",
+        "model": "gpt-4o-mini",
+        "extraction_type": "structured_job_extraction",
+        "source": "streamlit_user_input",
+        "source_file": null,
+        "source_row_index": null,
+        "notes": "Only information visible in the job posting text should be included."
+    }
+}

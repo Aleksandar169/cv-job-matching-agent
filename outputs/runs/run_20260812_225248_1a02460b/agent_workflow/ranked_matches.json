@@ -1,0 +1,27 @@
+{
+    "ranked_matches": [
+        {
+            "job_id": "job_001",
+            "job_key": "text_hash_21601969447ad8e90ac4a68bfebbe60a00beb53690b5bd255118db4069e3be18",
+            "loaded_from_database": true,
+            "storage_summary": {
+                "inserted": false,
+                "updated_existing": true,
+                "submission_count": 4
+            },
+            "job_information": {
+                "job_title": null,
+                "company_name": "SynergisticIT",
+                "job_category": "Software Development",
+                "location": null,
+                "work_mode": null,
+                "employment_type": "Full-time"
+            },
+            "structured_job_output_path": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_225248_1a02460b\\jobs\\job_001\\job_extraction\\structured_job.json",
+            "final_hybrid_score": 24.57,
+            "direct_matching_score": 23.96,
+            "semantic_score": 26.0,
+            "match_category": "Weak match"
+        }
+    ]
+}

@@ -1,0 +1,914 @@
+{
+    "metadata": {
+        "created_at": "2026-08-12T22:48:20",
+        "workflow_type": "langgraph_production_cv_job_matching_agent",
+        "status": "completed",
+        "started_at": "2026-08-12T22:47:36",
+        "completed_at": "2026-08-12T22:48:20",
+        "run_id": "run_20260812_224736_8ad4acd1",
+        "run_output_dir": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_224736_8ad4acd1"
+    },
+    "user_choices": {
+        "user_wants_cv_recommendations": true,
+        "user_wants_job_matching": true,
+        "user_wants_job_recommendations": true,
+        "user_wants_detailed_report": true,
+        "selected_job_id": "job_001"
+    },
+    "cv_digest": {
+        "candidate_name": "ALEX JOHNSON",
+        "email": "alex.jjohnson@example.com",
+        "phone": "+1 202-555-0147",
+        "location": "Example City, 10000",
+        "linkedin_url": "https://www.linkedin.com/in/alex-johnson-example/",
+        "github_url": "",
+        "portfolio_url": "",
+        "profile_summary": "Highly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical Engineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and System Programming (C/C++, Java, Python). Seeking to leverage advanced technical skills and a robust background in low-level systems and application development to contribute high-impact solutions to a challenging and innovative engineering environment. Strong communication and teamwork skills developed through university projects.",
+        "total_years_of_experience": "",
+        "final_cv_quality_score": 69.5,
+        "cv_quality_category": "Basic CV",
+        "overall_summary": "The CV presents a strong candidate profile with relevant education and project experience in software engineering. However, it lacks clarity in the organization of skills and measurable results, which could enhance its impact.",
+        "top_strengths": [
+            "Strong educational background with a high GPA in Software Engineering.",
+            "Relevant projects demonstrating practical application of skills in software development.",
+            "Clear specialization in Data Structures and Algorithms and System Programming."
+        ],
+        "top_weaknesses": [
+            "Skills section lacks clear organization and grouping of technical skills.",
+            "No measurable results or quantifiable achievements are provided in project descriptions."
+        ],
+        "missing_or_unclear_sections": [
+            "Clear organization of skills (e.g., grouping by categories like programming languages, tools, etc.).",
+            "Quantifiable achievements or measurable results in project descriptions."
+        ],
+        "cv_quality_scores": {
+            "structure_and_readability_score": 70,
+            "completeness_score": 80,
+            "technical_skills_clarity_score": 60,
+            "experience_description_score": 75,
+            "projects_description_score": 80,
+            "measurable_results_score": 40,
+            "it_relevance_score": 80
+        },
+        "cv_quality_weights_used": {
+            "structure_and_readability_score": 0.15,
+            "completeness_score": 0.15,
+            "technical_skills_clarity_score": 0.2,
+            "experience_description_score": 0.2,
+            "projects_description_score": 0.15,
+            "measurable_results_score": 0.1,
+            "it_relevance_score": 0.05
+        },
+        "cv_text_preview": "ALEX JOHNSON\n¢ +1 202-555-0147 | alex.jjohnson@example.com | Example City, 10000\nSOFTWARE ENGINEERING STUDENT\nin| https://www.linkedin.com/in/alex-johnson-example/\nPROFILE\nHighly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical\nEngineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and\nSystem Programming (C/C++, Java,Python). Seeking to leverage advanced technical skills and a robust\nbackground in low-level systems and application development to contribute high-impact solutions to a\nchallenging and innovative engineering environment. Strong communication and teamwork skills\ndeveloped through university projects.\nEDUCATION\nUniversity of Belgrade - School of Electrical Engineering (ETF)\ne Degree: Bachelor of..."
+    },
+    "cv_recommendations_digest": {
+        "source": "cv_quality_analysis",
+        "recommendations": [
+            "Organize the skills section into categories (e.g., Programming Languages, Tools, Soft Skills) for better clarity.",
+            "Include measurable outcomes or results for each project to demonstrate impact and effectiveness.",
+            "Consider adding a brief summary of relevant internships or work experience if applicable."
+        ],
+        "weaknesses_used_as_evidence": [
+            "Skills section lacks clear organization and grouping of technical skills.",
+            "No measurable results or quantifiable achievements are provided in project descriptions."
+        ],
+        "missing_or_unclear_sections": [
+            "Clear organization of skills (e.g., grouping by categories like programming languages, tools, etc.).",
+            "Quantifiable achievements or measurable results in project descriptions."
+        ]
+    },
+    "matching_digest": {
+        "number_of_jobs_analyzed": 1,
+        "best_match": {
+            "rank": 1,
+            "job_id": "job_001",
+            "job_title": null,
+            "company_name": "SynergisticIT",
+            "job_category": "Software Development",
+            "location": null,
+            "work_mode": null,
+            "employment_type": "Full-time",
+            "final_hybrid_score": 23.37,
+            "direct_matching_score": 23.96,
+            "semantic_score": 22.0,
+            "match_category": "Weak match",
+            "top_matched_required_skills": [
+                {
+                    "job_requirement": "Java",
+                    "cv_evidence": "Java",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "C++",
+                    "cv_evidence": "C++",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "Python",
+                    "cv_evidence": "Python",
+                    "match_type": "exact_skill_match"
+                }
+            ],
+            "top_missing_required_skills": [
+                "Core Java",
+                "JavaScript",
+                "Spring Boot",
+                "Microservices",
+                "Docker"
+            ]
+        },
+        "ranked_jobs": [
+            {
+                "rank": 1,
+                "job_id": "job_001",
+                "job_title": null,
+                "company_name": "SynergisticIT",
+                "job_category": "Software Development",
+                "location": null,
+                "work_mode": null,
+                "employment_type": "Full-time",
+                "final_hybrid_score": 23.37,
+                "direct_matching_score": 23.96,
+                "semantic_score": 22.0,
+                "match_category": "Weak match",
+                "top_matched_required_skills": [
+                    {
+                        "job_requirement": "Java",
+                        "cv_evidence": "Java",
+                        "match_type": "exact_skill_match"
+                    },
+                    {
+                        "job_requirement": "C++",
+                        "cv_evidence": "C++",
+                        "match_type": "exact_skill_match"
+                    },
+                    {
+                        "job_requirement": "Python",
+                        "cv_evidence": "Python",
+                        "match_type": "exact_skill_match"
+                    }
+                ],
+                "top_missing_required_skills": [
+                    "Core Java",
+                    "JavaScript",
+                    "Spring Boot",
+                    "Microservices",
+                    "Docker"
+                ]
+            }
+        ]
+    },
+    "selected_job_recommendations_digest": {
+        "job_id": "job_001",
+        "available": true,
+        "overall_recommendation_summary": "To improve your CV and job matching for the position at SynergisticIT, focus on enhancing the clarity of your skills section, adding measurable results to your projects, and developing missing required skills such as Spring Boot, Docker, and Microservices.",
+        "priority_actions": [
+            {
+                "action_title": "Organize Skills Section",
+                "action_description": "Group the skills section into categories for better clarity.",
+                "expected_impact": "Improved readability and clarity of skills.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Quantify Project Outcomes",
+                "action_description": "Add specific outcomes or results achieved for each project.",
+                "expected_impact": "Increased impact of project descriptions.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Learn Core Java",
+                "action_description": "Consider taking an online course or working on a project that specifically focuses on Core Java.",
+                "expected_impact": "Improved job fit for positions requiring Core Java skills.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Learn JavaScript",
+                "action_description": "Engage in self-study or online courses to learn JavaScript.",
+                "expected_impact": "Enhanced qualifications for roles requiring JavaScript proficiency.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Familiarize with Spring Boot",
+                "action_description": "Study Spring Boot through online resources or tutorials.",
+                "expected_impact": "Increased alignment with job requirements for positions that utilize Spring Boot.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Learn Microservices Architecture",
+                "action_description": "Explore resources on Microservices architecture and consider building a project that implements this design pattern.",
+                "expected_impact": "Improved fit for roles that require knowledge of Microservices.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Learn Docker",
+                "action_description": "Take an online course on Docker and practice containerizing applications.",
+                "expected_impact": "Enhanced qualifications for positions requiring Docker skills.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Learn about REST APIs",
+                "action_description": "Study RESTful API design and consider building a project that consumes or creates REST APIs.",
+                "expected_impact": "Improved fit for roles that require knowledge of REST APIs.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Study Statistics",
+                "action_description": "Consider taking a course in statistics to build foundational knowledge.",
+                "expected_impact": "Enhanced qualifications for data science roles requiring statistical knowledge.",
+                "priority": "Medium"
+            },
+            {
+                "action_title": "Learn SAS",
+                "action_description": "Explore SAS through online courses or tutorials.",
+                "expected_impact": "Improved fit for roles that require SAS skills.",
+                "priority": "Medium"
+            },
+            {
+                "action_title": "Study Computer Vision",
+                "action_description": "Consider taking an introductory course in computer vision.",
+                "expected_impact": "Enhanced qualifications for roles requiring knowledge in computer vision.",
+                "priority": "Medium"
+            },
+            {
+                "action_title": "Learn Data Visualization Tools",
+                "action_description": "Familiarize yourself with popular data visualization tools like Tableau or PowerBI.",
+                "expected_impact": "Improved fit for roles that require data visualization skills.",
+                "priority": "Medium"
+            },
+            {
+                "action_title": "Clarify Communication Skills",
+                "action_description": "If you have specific examples of written or verbal communication skills, add them to your CV.",
+                "expected_impact": "Increased alignment with job requirements for communication skills.",
+                "priority": "Medium"
+            }
+        ],
+        "cv_improvement_recommendations_count": 2,
+        "missing_required_skills_recommendations_count": 12,
+        "technical_development_recommendations_count": 0,
+        "project_recommendations_count": 0,
+        "soft_skills_recommendations_count": 1,
+        "methodology_notes": [
+            "The recommendations are based solely on the provided CV, job posting, and quality analysis. No assumptions about the candidate's skills or experiences have been made beyond the evidence presented."
+        ]
+    },
+    "selected_job_final_report_summary": {
+        "job_id": "job_001",
+        "available": true,
+        "final_report_json_available": true,
+        "final_report_markdown_available": true,
+        "markdown_preview": "# Final CV-Job Matching Report\n\n## 1. Candidate Information\n\n- Candidate name: ALEX JOHNSON\n- Email: alex.jjohnson@example.com\n- Phone: +1 202-555-0147\n- Location: Example City, 10000\n- LinkedIn: https://www.linkedin.com/in/alex-johnson-example/\n- GitHub: None\n- Portfolio: None\n- Total years of experience: \n\n## 2. Job Information\n\n- Job title: None\n- Company: SynergisticIT\n- Job category: Software Development\n- Location: None\n- Work mode: None\n- Employment type: Full-time\n\n## 3. CV Quality Summary\n\n- Final CV quality score: 69.5/100\n- CV quality category: Basic CV\n\n### Overall CV Quality Summary\n\nThe CV presents a strong candidate profile with relevant education and project experience in software engineering. However, it lacks clarity in the organization of skills and measurable results, which could enhance its impact.\n\n### CV Quality Score Breakdown\n\n- Structure and readability: 70/100\n- Completeness: 80/100\n- Technical skills clarity: 60/100\n- Experience description: 75/100\n- Projects description: 80/100\n- Measurable results: 40/100\n- IT relevance: 80/100\n\n### CV Strengths\n\n- Strong educational background with a high GPA in Software Engineering.\n- Relevant projects demonstrating practical application of skills in software development.\n- Clear specialization in Data Structures and Algorithms and System Programming.\n\n### CV Weaknesses\n\n- Skills section lacks clear organization and grouping of technical skills.\n- No measurable results or quantifiable achievements are provided...",
+        "final_report": {
+            "metadata": {
+                "created_at": "2026-08-12T22:48:20",
+                "report_type": "final_cv_job_matching_report",
+                "source_files": {
+                    "cv_pdf": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\user_uploads\\cv\\cv_20260812_224532_0ef84829_CV_searchable_ATS.pdf",
+                    "cv_text": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_224736_8ad4acd1\\cv_extraction\\cv_text.txt",
+                    "cv_quality": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_224736_8ad4acd1\\cv_quality\\cv_quality_analysis.json",
+                    "structured_cv": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_224736_8ad4acd1\\cv_extraction\\structured_cv.json",
+                    "structured_job": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_224736_8ad4acd1\\jobs\\job_001\\job_extraction\\structured_job.json",
+                    "matching_result": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_224736_8ad4acd1\\jobs\\job_001\\matching\\matching_result.json",
+                    "recommendations": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_224736_8ad4acd1\\jobs\\job_001\\recommendations\\recommendations.json"
+                },
+                "methodological_note": "This final report aggregates outputs generated by previous processing steps. It does not recalculate CV quality, structured extraction, matching or recommendations."
+            },
+            "candidate_information": {
+                "candidate_name": "ALEX JOHNSON",
+                "email": "alex.jjohnson@example.com",
+                "phone": "+1 202-555-0147",
+                "location": "Example City, 10000",
+                "linkedin": "https://www.linkedin.com/in/alex-johnson-example/",
+                "github": null,
+                "portfolio": null,
+                "total_years_of_experience": ""
+            },
+            "job_information": {
+                "job_title": null,
+                "company_name": "SynergisticIT",
+                "job_category": "Software Development",
+                "location": null,
+                "work_mode": null,
+                "employment_type": "Full-time"
+            },
+            "cv_quality_summary": {
+                "final_cv_quality_score": 69.5,
+                "cv_quality_category": "Basic CV",
+                "cv_quality_weighting_note": "CV quality weights are default configurable values. They are not treated as universally fixed values and can be adjusted by the user depending on the evaluation context.",
+                "overall_summary": "The CV presents a strong candidate profile with relevant education and project experience in software engineering. However, it lacks clarity in the organization of skills and measurable results, which could enhance its impact.",
+                "scores": {
+                    "structure_and_readability_score": 70,
+                    "completeness_score": 80,
+                    "technical_skills_clarity_score": 60,
+                    "experience_description_score": 75,
+                    "projects_description_score": 80,
+                    "measurable_results_score": 40,
+                    "it_relevance_score": 80
+                },
+                "strengths": [
+                    "Strong educational background with a high GPA in Software Engineering.",
+                    "Relevant projects demonstrating practical application of skills in software development.",
+                    "Clear specialization in Data Structures and Algorithms and System Programming."
+                ],
+                "weaknesses": [
+                    "Skills section lacks clear organization and grouping of technical skills.",
+                    "No measurable results or quantifiable achievements are provided in project descriptions."
+                ],
+                "missing_or_unclear_sections": [
+                    "Clear organization of skills (e.g., grouping by categories like programming languages, tools, etc.).",
+                    "Quantifiable achievements or measurable results in project descriptions."
+                ],
+                "cv_improvement_recommendations": [
+                    "Organize the skills section into categories (e.g., Programming Languages, Tools, Soft Skills) for better clarity.",
+                    "Include measurable outcomes or results for each project to demonstrate impact and effectiveness.",
+                    "Consider adding a brief summary of relevant internships or work experience if applicable."
+                ],
+                "evidence_notes": [
+                    "The candidate's GPA and relevant coursework highlight their academic achievements and focus areas.",
+                    "Projects are described with technologies used and the candidate's role, showing practical experience.",
+                    "The skills section lists various programming languages and concepts but lacks clear organization."
+                ]
+            },
+            "matching_summary": {
+                "final_hybrid_score": 23.37,
+                "direct_matching_score": 23.96,
+                "semantic_score": 22.0,
+                "match_category": "Weak match",
+                "score_breakdown": {
+                    "required_skills_score": 20.0,
+                    "technology_score": 33.33,
+                    "experience_score": null,
+                    "education_score": null,
+                    "nice_to_have_score": 0.0,
+                    "certification_score": null,
+                    "language_score": null,
+                    "direct_matching_score": 23.96,
+                    "responsibilities_alignment_score": 0,
+                    "soft_skills_evidence_score": 60,
+                    "contextual_experience_alignment_score": 40,
+                    "semantic_skill_evidence_score": 0,
+                    "semantic_score": 22.0,
+                    "final_hybrid_score": 23.37
+                }
+            },
+            "skills_and_requirements_summary": {
+                "cv_skills": {
+                    "technical_skills": [
+                        "C",
+                        "C++",
+                        "Java",
+                        "SQL",
+                        "Algorithms",
+                        "Git",
+                        "Python",
+                        "Assembly",
+                        "Data Structures",
+                        "Problem solving",
+                        "Networks"
+                    ],
+                    "programming_languages": [
+                        "C",
+                        "C++",
+                        "Java",
+                        "Python",
+                        "SQL",
+                        "Assembly"
+                    ],
+                    "frameworks_and_libraries": [],
+                    "databases": [],
+                    "cloud_and_devops_tools": [],
+                    "data_and_ai_tools": [],
+                    "other_tools": [],
+                    "soft_skills": [
+                        "Problem solving",
+                        "Teamwork",
+                        "Communication"
+                    ],
+                    "languages": []
+                },
+                "job_requirements": {
+                    "required_skills": [
+                        "Java",
+                        "Core Java",
+                        "JavaScript",
+                        "C++",
+                        "Spring Boot",
+                        "Microservices",
+                        "Docker",
+                        "Jenkins",
+                        "REST APIs",
+                        "Statistics",
+                        "SAS",
+                        "Python",
+                        "Computer Vision",
+                        "data visualization tools",
+                        "Excellent written and verbal communication skills"
+                    ],
+                    "nice_to_have_skills": [
+                        "NLP",
+                        "Text mining",
+                        "Tableau",
+                        "PowerBI",
+                        "TensorFlow"
+                    ],
+                    "programming_languages": [
+                        "Java",
+                        "JavaScript",
+                        "C++",
+                        "Python"
+                    ],
+                    "frameworks_and_libraries": [
+                        "Spring Boot"
+                    ],
+                    "databases": [],
+                    "cloud_and_devops_tools": [
+                        "Docker",
+                        "Jenkins"
+                    ],
+                    "data_and_ai_tools": [
+                        "SAS",
+                        "TensorFlow"
+                    ],
+                    "testing_tools": [],
+                    "other_tools": [],
+                    "certifications": [],
+                    "language_requirements": [],
+                    "soft_skills": [
+                        "Highly motivated",
+                        "self-learner",
+                        "technically inquisitive"
+                    ]
+                },
+                "matched_items": {
+                    "matched_required_skills": [
+                        {
+                            "job_requirement": "Java",
+                            "cv_evidence": "Java",
+                            "match_type": "exact_skill_match"
+                        },
+                        {
+                            "job_requirement": "C++",
+                            "cv_evidence": "C++",
+                            "match_type": "exact_skill_match"
+                        },
+                        {
+                            "job_requirement": "Python",
+                            "cv_evidence": "Python",
+                            "match_type": "exact_skill_match"
+                        }
+                    ],
+                    "matched_nice_to_have_skills": [],
+                    "matched_technology_skills": [
+                        {
+                            "job_requirement": "Java",
+                            "cv_evidence": "Java",
+                            "match_type": "exact_skill_match"
+                        },
+                        {
+                            "job_requirement": "C++",
+                            "cv_evidence": "C++",
+                            "match_type": "exact_skill_match"
+                        },
+                        {
+                            "job_requirement": "Python",
+                            "cv_evidence": "Python",
+                            "match_type": "exact_skill_match"
+                        }
+                    ],
+                    "matched_certifications": [],
+                    "matched_languages": []
+                },
+                "missing_items": {
+                    "missing_required_skills": [
+                        "Core Java",
+                        "JavaScript",
+                        "Spring Boot",
+                        "Microservices",
+                        "Docker",
+                        "Jenkins",
+                        "REST APIs",
+                        "Statistics",
+                        "SAS",
+                        "Computer Vision",
+                        "data visualization tools",
+                        "Excellent written and verbal communication skills"
+                    ],
+                    "missing_nice_to_have_skills": [
+                        "NLP",
+                        "Text mining",
+                        "Tableau",
+                        "PowerBI",
+                        "TensorFlow"
+                    ],
+                    "missing_technology_skills": [
+                        "JavaScript",
+                        "Spring Boot",
+                        "Docker",
+                        "Jenkins",
+                        "SAS",
+                        "TensorFlow"
+                    ],
+                    "missing_certifications": [],
+                    "missing_languages": []
+                }
+            },
+            "semantic_analysis_summary": {
+                "role_fit_summary": "Alex Johnson is a third-year Software Engineering student with strong programming skills in Java, C++, and Python, which align with the job's requirements. However, he lacks experience with several key technologies and frameworks such as Spring Boot, Docker, and Microservices, which are essential for the role. His academic projects demonstrate relevant technical skills but do not fully cover the job's expectations for practical experience in software development and data science. Overall, while he has a solid foundation, there are significant gaps in required skills and experience for this position.",
+                "responsibilities_alignment_score": 0,
+                "soft_skills_evidence_score": 60,
+                "contextual_experience_alignment_score": 40,
+                "semantic_skill_evidence_score": 0,
+                "responsibilities_evidenced": [],
+                "responsibilities_not_evidenced": [],
+                "soft_skills_evidenced": [
+                    "Problem solving",
+                    "Teamwork",
+                    "Communication"
+                ],
+                "soft_skills_not_clearly_evidenced": [
+                    "Highly motivated",
+                    "self-learner",
+                    "technically inquisitive"
+                ],
+                "contextual_experience_evidence": [
+                    "Developed a foundational kernel model demonstrating core OS concepts, focusing on memory management and low-level hardware interaction.",
+                    "Created a command-line interpreter applying advanced OOP principles in C++, showcasing software development skills.",
+                    "Developed a GUI flight simulator using Java, adhering to OOP principles, which aligns with software development practices."
+                ],
+                "contextual_experience_gaps": [
+                    "No evidence of experience with Microservices, Docker, or Jenkins, which are critical for the role.",
+                    "Lack of practical experience in data science or machine learning, as required by the job description."
+                ],
+                "semantic_skill_evidence": [],
+                "possible_direct_matching_false_negatives": [],
+                "evidence_notes": [
+                    "The candidate has demonstrated teamwork and communication skills through university projects, but lacks evidence of being highly motivated or a self-learner as specified in the job posting. Contextual experience shows relevant software development tasks but lacks practical application in the required technologies."
+                ]
+            },
+            "recommendation_summary": {
+                "overall_recommendation_summary": "To improve your CV and job matching for the position at SynergisticIT, focus on enhancing the clarity of your skills section, adding measurable results to your projects, and developing missing required skills such as Spring Boot, Docker, and Microservices.",
+                "cv_improvement_recommendations": [
+                    {
+                        "title": "Organize Skills Section",
+                        "reason": "The skills section lacks clear organization, which can hinder readability and impact. A well-structured skills section can help highlight your qualifications more effectively.",
+                        "evidence": "The CV quality analysis indicates that the skills section lacks clear organization and grouping.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Group Technical Skills",
+                                "action_description": "Organize the skills section into categories such as Programming Languages, Tools, and Soft Skills for better clarity.",
+                                "expected_impact": "Improved readability and clarity of skills, making it easier for recruiters to assess qualifications.",
+                                "priority": "High"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Add Measurable Results to Projects",
+                        "reason": "Including measurable outcomes or results in project descriptions can demonstrate the impact of your work and enhance your CV's effectiveness.",
+                        "evidence": "The CV quality analysis notes that no measurable results or quantifiable achievements are provided in project descriptions.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Quantify Project Outcomes",
+                                "action_description": "For each project, add specific outcomes or results achieved, such as performance improvements or user engagement metrics.",
+                                "expected_impact": "Increased impact of project descriptions, showcasing your contributions and effectiveness.",
+                                "priority": "High"
+                            }
+                        ]
+                    }
+                ],
+                "missing_required_skills_recommendations": [
+                    {
+                        "skill": "Core Java",
+                        "current_status": "not evidenced in CV",
+                        "evidence": "The job posting requires Core Java, but it is not mentioned in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Learn Core Java",
+                                "action_description": "Consider taking an online course or working on a project that specifically focuses on Core Java to build your expertise.",
+                                "expected_impact": "Improved job fit for positions requiring Core Java skills.",
+                                "priority": "High"
+                            }
+                        ]
+                    },
+                    {
+                        "skill": "JavaScript",
+                        "current_status": "not evidenced in CV",
+                        "evidence": "JavaScript is listed as a required skill in the job posting but is not mentioned in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Learn JavaScript",
+                                "action_description": "Engage in self-study or online courses to learn JavaScript, and consider building a small web project to apply your knowledge.",
+                                "expected_impact": "Enhanced qualifications for roles requiring JavaScript proficiency.",
+                                "priority": "High"
+                            }
+                        ]
+                    },
+                    {
+                        "skill": "Spring Boot",
+                        "current_status": "not evidenced in CV",
+                        "evidence": "Spring Boot is a required skill for the job, but there is no mention of it in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Familiarize with Spring Boot",
+                                "action_description": "Study Spring Boot through online resources or tutorials, and consider creating a simple application using this framework.",
+                                "expected_impact": "Increased alignment with job requirements for positions that utilize Spring Boot.",
+                                "priority": "High"
+                            }
+                        ]
+                    },
+                    {
+                        "skill": "Microservices",
+                        "current_status": "not evidenced in CV",
+                        "evidence": "Microservices are required for the job but are not mentioned in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Learn Microservices Architecture",
+                                "action_description": "Explore resources on Microservices architecture and consider building a project that implements this design pattern.",
+                                "expected_impact": "Improved fit for roles that require knowledge of Microservices.",
+                                "priority": "High"
+                            }
+                        ]
+                    },
+                    {
+                        "skill": "Docker",
+                        "current_status": "not evidenced in CV",
+                        "evidence": "Docker is listed as a required skill in the job posting but is not mentioned in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Learn Docker",
+                                "action_description": "Take an online course on Docker and practice containerizing applications to gain hands-on experience.",
+                                "expected_impact": "Enhanced qualifications for positions requiring Docker skills.",
+                                "priority": "High"
+                            }
+                        ]
+                    },
+                    {
+                        "skill": "Jenkins",
+                        "current_status": "not evidenced in CV",
+                        "evidence": "Jenkins is a required skill for the job, but there is no mention of it in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Familiarize with Jenkins",
+                                "action_description": "Learn about Jenkins through tutorials and set up a CI/CD pipeline for a project to gain practical experience.",
+                                "expected_impact": "Increased alignment with job requirements for positions that utilize Jenkins.",
+                                "priority": "High"
+                            }
+                        ]
+                    },
+                    {
+                        "skill": "REST APIs",
+                        "current_status": "not evidenced in CV",
+                        "evidence": "REST APIs are required for the job but are not mentioned in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Learn about REST APIs",
+                                "action_description": "Study RESTful API design and consider building a project that consumes or creates REST APIs.",
+                                "expected_impact": "Improved fit for roles that require knowledge of REST APIs.",
+                                "priority": "High"
+                            }
+                        ]
+                    },
+                    {
+                        "skill": "Statistics",
+                        "current_status": "not evidenced in CV",
+                        "evidence": "Statistics is listed as a required skill in the job posting but is not mentioned in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Study Statistics",
+                                "action_description": "Consider taking a course in statistics to build foundational knowledge that can be applied in data science contexts.",
+                                "expected_impact": "Enhanced qualifications for data science roles requiring statistical knowledge.",
+                                "priority": "Medium"
+                            }
+                        ]
+                    },
+                    {
+                        "skill": "SAS",
+                        "current_status": "not evidenced in CV",
+                        "evidence": "SAS is a required skill for the job, but there is no mention of it in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Learn SAS",
+                                "action_description": "Explore SAS through online courses or tutorials to gain familiarity with this data analysis tool.",
+                                "expected_impact": "Improved fit for roles that require SAS skills.",
+                                "priority": "Medium"
+                            }
+                        ]
+                    },
+                    {
+                        "skill": "Computer Vision",
+                        "current_status": "not evidenced in CV",
+                        "evidence": "Computer Vision is listed as a required skill in the job posting but is not mentioned in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Study Computer Vision",
+                                "action_description": "Consider taking an introductory course in computer vision to understand its principles and applications.",
+                                "expected_impact": "Enhanced qualifications for roles requiring knowledge in computer vision.",
+                                "priority": "Medium"
+                            }
+                        ]
+                    },
+                    {
+                        "skill": "Data Visualization Tools",
+                        "current_status": "not evidenced in CV",
+                        "evidence": "Data visualization tools are required for the job but are not mentioned in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Learn Data Visualization Tools",
+                                "action_description": "Familiarize yourself with popular data visualization tools like Tableau or PowerBI through online resources.",
+                                "expected_impact": "Improved fit for roles that require data visualization skills.",
+                                "priority": "Medium"
+                            }
+                        ]
+                    },
+                    {
+                        "skill": "Excellent Written and Verbal Communication Skills",
+                        "current_status": "partially evidenced",
+                        "evidence": "The CV mentions strong communication skills developed through university projects, but it does not explicitly state 'excellent written and verbal communication skills' as required by the job.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Clarify Communication Skills",
+                                "action_description": "If you have specific examples of written or verbal communication skills, add them to your CV to better align with job requirements.",
+                                "expected_impact": "Increased alignment with job requirements for communication skills.",
+                                "priority": "Medium"
+                            }
+                        ]
+                    }
+                ],
+                "technical_development_recommendations": [],
+                "project_recommendations": [],
+                "soft_skills_recommendations": [
+                    {
+                        "title": "Evidencing Soft Skills",
+                        "reason": "While some soft skills are mentioned, others like 'highly motivated' and 'self-learner' are not evidenced in the CV, which are important for the job.",
+                        "evidence": "The job posting emphasizes soft skills such as being highly motivated and technically inquisitive, which are not clearly evidenced in the CV.",
+                        "recommended_actions": [
+                            {
+                                "action_title": "Provide Examples of Motivation and Learning",
+                                "action_description": "If you have specific instances that demonstrate your motivation and self-learning, include them in your CV.",
+                                "expected_impact": "Better alignment with job requirements for soft skills.",
+                                "priority": "Medium"
+                            }
+                        ]
+                    }
+                ],
+                "priority_actions": [
+                    {
+                        "action_title": "Organize Skills Section",
+                        "action_description": "Group the skills section into categories for better clarity.",
+                        "expected_impact": "Improved readability and clarity of skills.",
+                        "priority": "High"
+                    },
+                    {
+                        "action_title": "Quantify Project Outcomes",
+                        "action_description": "Add specific outcomes or results achieved for each project.",
+                        "expected_impact": "Increased impact of project descriptions.",
+                        "priority": "High"
+                    },
+                    {
+                        "action_title": "Learn Core Java",
+                        "action_description": "Consider taking an online course or working on a project that specifically focuses on Core Java.",
+                        "expected_impact": "Improved job fit for positions requiring Core Java skills.",
+                        "priority": "High"
+                    },
+                    {
+                        "action_title": "Learn JavaScript",
+                        "action_description": "Engage in self-study or online courses to learn JavaScript.",
+                        "expected_impact": "Enhanced qualifications for roles requiring JavaScript proficiency.",
+                        "priority": "High"
+                    },
+                    {
+                        "action_title": "Familiarize with Spring Boot",
+                        "action_description": "Study Spring Boot through online resources or tutorials.",
+                        "expected_impact": "Increased alignment with job requirements for positions that utilize Spring Boot.",
+                        "priority": "High"
+                    },
+                    {
+                        "action_title": "Learn Microservices Architecture",
+                        "action_description": "Explore resources on Microservices architecture and consider building a project that implements this design pattern.",
+                        "expected_impact": "Improved fit for roles that require knowledge of Microservices.",
+                        "priority": "High"
+                    },
+                    {
+                        "action_title": "Learn Docker",
+                        "action_description": "Take an online course on Docker and practice containerizing applications.",
+                        "expected_impact": "Enhanced qualifications for positions requiring Docker skills.",
+                        "priority": "High"
+                    },
+                    {
+                        "action_title": "Learn about REST APIs",
+                        "action_description": "Study RESTful API design and consider building a project that consumes or creates REST APIs.",
+                        "expected_impact": "Improved fit for roles that require knowledge of REST APIs.",
+                        "priority": "High"
+                    },
+                    {
+                        "action_title": "Study Statistics",
+                        "action_description": "Consider taking a course in statistics to build foundational knowledge.",
+                        "expected_impact": "Enhanced qualifications for data science roles requiring statistical knowledge.",
+                        "priority": "Medium"
+                    },
+                    {
+                        "action_title": "Learn SAS",
+                        "action_description": "Explore SAS through online courses or tutorials.",
+                        "expected_impact": "Improved fit for roles that require SAS skills.",
+                        "priority": "Medium"
+                    },
+                    {
+                        "action_title": "Study Computer Vision",
+                        "action_description": "Consider taking an introductory course in computer vision.",
+                        "expected_impact": "Enhanced qualifications for roles requiring knowledge in computer vision.",
+                        "priority": "Medium"
+                    },
+                    {
+                        "action_title": "Learn Data Visualization Tools",
+                        "action_description": "Familiarize yourself with popular data visualization tools like Tableau or PowerBI.",
+                        "expected_impact": "Improved fit for roles that require data visualization skills.",
+                        "priority": "Medium"
+                    },
+                    {
+                        "action_title": "Clarify Communication Skills",
+                        "action_description": "If you have specific examples of written or verbal communication skills, add them to your CV.",
+                        "expected_impact": "Increased alignment with job requirements for communication skills.",
+                        "priority": "Medium"
+                    }
+                ],
+                "methodology_notes": [
+                    "The recommendations are based solely on the provided CV, job posting, and quality analysis. No assumptions about the candidate's skills or experiences have been made beyond the evidence presented."
+                ]
+            },
+            "weighting_summary": {
+                "cv_quality_weights_used": {
+                    "structure_and_readability_score": 0.15,
+                    "completeness_score": 0.15,
+                    "technical_skills_clarity_score": 0.2,
+                    "experience_description_score": 0.2,
+                    "projects_description_score": 0.15,
+                    "measurable_results_score": 0.1,
+                    "it_relevance_score": 0.05
+                },
+                "cv_quality_weighting_note": "CV quality weights are default configurable values. They are not treated as universally fixed values and can be adjusted by the user depending on the evaluation context.",
+                "matching_weights_used": {
+                    "direct_matching_weights": {
+                        "required_skills_score": 0.35,
+                        "technology_score": 0.25,
+                        "experience_score": 0.25,
+                        "education_score": 0.08,
+                        "nice_to_have_score": 0.04,
+                        "certification_score": 0.02,
+                        "language_score": 0.01
+                    },
+                    "internal_semantic_matching_weights": {
+                        "responsibilities_alignment_score": 0.4,
+                        "soft_skills_evidence_score": 0.2,
+                        "contextual_experience_alignment_score": 0.25,
+                        "semantic_skill_evidence_score": 0.15
+                    },
+                    "matching_mode_weights": {
+                        "direct_matching_score": 0.7,
+                        "semantic_score": 0.3
+                    },
+                    "weighting_note": "Direct matching weights and direct-vs-semantic matching weights are configurable values. Semantic matching weights are internal default values used to compose the semantic score."
+                }
+            }
+        }
+    },
+    "job_results": [
+        {
+            "job_id": "job_001",
+            "job_key": "text_hash_21601969447ad8e90ac4a68bfebbe60a00beb53690b5bd255118db4069e3be18",
+            "loaded_from_database": true,
+            "storage_summary": {
+                "inserted": false,
+                "updated_existing": true,
+                "submission_count": 2
+            },
+            "job_information": {
+                "job_title": null,
+                "company_name": "SynergisticIT",
+                "job_category": "Software Development",
+                "location": null,
+                "work_mode": null,
+                "employment_type": "Full-time"
+            },
+            "structured_job_output_path": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_224736_8ad4acd1\\jobs\\job_001\\job_extraction\\structured_job.json",
+            "final_hybrid_score": 23.37,
+            "direct_matching_score": 23.96,
+            "semantic_score": 22.0,
+            "match_category": "Weak match"
+        }
+    ],
+    "workflow_log": [
+        "[2026-08-12T22:47:36] Agent workflow initialized.",
+        "[2026-08-12T22:47:36] Processed CV PDF and extracted CV text.",
+        "[2026-08-12T22:47:40] Completed CV quality analysis.",
+        "[2026-08-12T22:47:47] Extracted structured CV information.",
+        "[2026-08-12T22:47:47] Created CV digest.",
+        "[2026-08-12T22:47:47] Created CV recommendations digest from CV quality analysis.",
+        "[2026-08-12T22:48:20] Processed job input: job_001.",
+        "[2026-08-12T22:48:20] Processed 1 job posting(s).",
+        "[2026-08-12T22:48:20] Ranked job postings by final hybrid matching score.",
+        "[2026-08-12T22:48:20] Created matching digest.",
+        "[2026-08-12T22:48:20] Selected requested job for details: job_001.",
+        "[2026-08-12T22:48:20] Prepared recommendation digest for selected job.",
+        "[2026-08-12T22:48:20] Prepared final report summary for selected job.",
+        "[2026-08-12T22:48:20] Agent workflow completed."
+    ],
+    "errors": []
+}

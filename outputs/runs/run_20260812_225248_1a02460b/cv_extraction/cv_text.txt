@@ -1,0 +1,45 @@
+ALEX JOHNSON
+¢ +1 202-555-0147 | alex.jjohnson@example.com | Example City, 10000
+SOFTWARE ENGINEERING STUDENT
+in| https://www.linkedin.com/in/alex-johnson-example/
+PROFILE
+Highly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical
+Engineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and
+System Programming (C/C++, Java,Python). Seeking to leverage advanced technical skills and a robust
+background in low-level systems and application development to contribute high-impact solutions to a
+challenging and innovative engineering environment. Strong communication and teamwork skills
+developed through university projects.
+EDUCATION
+University of Belgrade - School of Electrical Engineering (ETF)
+e Degree: Bachelor of Science (B.Sc.) in Software Engineering
+Location: Example City
+Expected Graduation: June 2027
+Year of Study: Third Year Student
+Cumulative GPA: 9.2 / 10.0
+Relevant Coursework Highlights:
+e Data Structures and Algorithms
+e Object-Oriented Programming 1 (C++)
+e Object-Oriented Programming 2 (Java)
+e Operating Systems
+e Database Systems (SQL)
+e Computer Networks
+e Probability and statistics
+PROJECTS
+Multithreaded Preemptive Kernel for RISC-V Architecture (C++, C, Assembly)
+e Developed a foundational kernel model to demonstrate core OS concepts, focusing heavily on
+memory management, threads, and low-level hardware interaction.
+Command-Line Interpreter (C++)
+e Developed a functional command-line interpreter applying advanced OOP principles in C++,
+focusing on clean architecture and modular design for command execution and parsing.
+GUI Flight Simulator (Java)
+e Developed a visual flight simulator using Java AWT for the GUI, strictly adhering to Object-Oriented
+Programming principles for clean, scalable design and management of flight data.
+Sudoku & Ludo (Python)
+¢ Developed interactive, fully functional game applications in Python, demonstrating strong capabilities in
+algorithmic logic design and efficient problem-solving for complex game rules.
+Binary Tree, Fibonacci heap, B* Tree and Graph Algorithms (C/C++)
+e¢ Implemented performance-critical algorithms for B* Tree indexing, Binary Search Trees, and Graph
+theory, utilizing C/C++ to achieve high computational efficiency and optimal algorithmic complexity.
+SKILLS
+e C, C++ e Java e SQL e Algorithms e Git
+e Python e Assembly e Data Structures e Problem solving e Networks

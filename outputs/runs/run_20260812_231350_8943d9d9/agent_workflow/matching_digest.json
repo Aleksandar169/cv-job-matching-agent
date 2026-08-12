@@ -1,0 +1,93 @@
+{
+    "number_of_jobs_analyzed": 1,
+    "best_match": {
+        "rank": 1,
+        "job_id": "job_001",
+        "job_title": "Junior Java Backend Developer",
+        "company_name": "NovaTech Solutions",
+        "job_category": "Software Development",
+        "location": "Belgrade, Serbia",
+        "work_mode": "Hybrid",
+        "employment_type": "Full-time",
+        "final_hybrid_score": 51.23,
+        "direct_matching_score": 50.47,
+        "semantic_score": 53.0,
+        "match_category": "Partial match",
+        "top_matched_required_skills": [
+            {
+                "job_requirement": "Java",
+                "cv_evidence": "Java",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Object-Oriented Programming",
+                "cv_evidence": "Found in structured CV evidence text",
+                "match_type": "text_evidence_match"
+            },
+            {
+                "job_requirement": "SQL",
+                "cv_evidence": "SQL",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Git",
+                "cv_evidence": "Git",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Data Structures",
+                "cv_evidence": "Data Structures",
+                "match_type": "exact_skill_match"
+            }
+        ],
+        "top_missing_required_skills": [
+            "REST API basics"
+        ]
+    },
+    "ranked_jobs": [
+        {
+            "rank": 1,
+            "job_id": "job_001",
+            "job_title": "Junior Java Backend Developer",
+            "company_name": "NovaTech Solutions",
+            "job_category": "Software Development",
+            "location": "Belgrade, Serbia",
+            "work_mode": "Hybrid",
+            "employment_type": "Full-time",
+            "final_hybrid_score": 51.23,
+            "direct_matching_score": 50.47,
+            "semantic_score": 53.0,
+            "match_category": "Partial match",
+            "top_matched_required_skills": [
+                {
+                    "job_requirement": "Java",
+                    "cv_evidence": "Java",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "Object-Oriented Programming",
+                    "cv_evidence": "Found in structured CV evidence text",
+                    "match_type": "text_evidence_match"
+                },
+                {
+                    "job_requirement": "SQL",
+                    "cv_evidence": "SQL",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "Git",
+                    "cv_evidence": "Git",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "Data Structures",
+                    "cv_evidence": "Data Structures",
+                    "match_type": "exact_skill_match"
+                }
+            ],
+            "top_missing_required_skills": [
+                "REST API basics"
+            ]
+        }
+    ]
+}

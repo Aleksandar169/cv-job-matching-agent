@@ -1,0 +1,158 @@
+{
+    "metadata": {
+        "created_at": "2026-08-12T23:10:24",
+        "recommendation_type": "llm_based_evidence_recommendations",
+        "llm_model": "gpt-4o-mini",
+        "cv_source": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\user_uploads\\cv\\cv_20260812_230950_2ed444ad_CV_searchable_ATS.pdf",
+        "job_source": "job_001",
+        "cv_quality_source": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_230950_767f3b66\\cv_quality\\cv_quality_analysis.json",
+        "matching_source": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_230950_767f3b66\\jobs\\job_001\\matching\\matching_result.json"
+    },
+    "job_information": {
+        "job_title": "Junior Java Backend Developer",
+        "company_name": "NovaTech Solutions",
+        "job_category": "Software Development",
+        "location": "Belgrade, Serbia",
+        "work_mode": "Hybrid",
+        "employment_type": "Full-time"
+    },
+    "matching_summary": {
+        "final_hybrid_score": 51.68,
+        "direct_matching_score": 50.47,
+        "semantic_score": 54.5,
+        "match_category": "Partial match"
+    },
+    "recommendations": {
+        "overall_recommendation_summary": "To enhance your candidacy for the Junior Java Backend Developer position, focus on improving the clarity and organization of your CV, adding measurable results to your projects, and developing skills related to REST APIs and Spring Boot.",
+        "cv_improvement_recommendations": [
+            {
+                "title": "Organize Skills Section",
+                "reason": "The skills section lacks organization and clarity, which affects the overall readability of your CV.",
+                "evidence": "The CV quality analysis indicates that the skills section is not clearly organized, impacting the technical skills clarity score.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Categorize Skills",
+                        "action_description": "Organize your skills into categories such as Programming Languages, Tools, and Frameworks to improve clarity.",
+                        "expected_impact": "This will enhance the readability of your CV and make it easier for recruiters to identify your relevant skills.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "title": "Include Measurable Results",
+                "reason": "Your CV currently lacks measurable results or achievements, which could significantly enhance its impact.",
+                "evidence": "The CV quality analysis notes that no measurable results or outcomes are provided for your projects.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Add Project Outcomes",
+                        "action_description": "For each project, include specific outcomes or results achieved, such as performance improvements or user engagement metrics.",
+                        "expected_impact": "This will demonstrate the impact of your work and strengthen your CV.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "title": "Improve Contact Information Formatting",
+                "reason": "Inconsistent formatting of contact information can detract from the professionalism of your CV.",
+                "evidence": "The CV quality analysis highlights inconsistent formatting in the contact information section.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Standardize Formatting",
+                        "action_description": "Ensure that your contact information is consistently formatted, including font size and style.",
+                        "expected_impact": "This will improve the overall presentation of your CV.",
+                        "priority": "Medium"
+                    }
+                ]
+            }
+        ],
+        "missing_required_skills_recommendations": [
+            {
+                "skill": "REST API basics",
+                "current_status": "not evidenced in CV",
+                "evidence": "The job posting requires knowledge of REST API basics, which is not mentioned in your CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn REST API Basics",
+                        "action_description": "Consider taking an online course or tutorial on REST APIs to build foundational knowledge.",
+                        "expected_impact": "This will help you meet the job requirements and improve your candidacy for the position.",
+                        "priority": "High"
+                    }
+                ]
+            }
+        ],
+        "technical_development_recommendations": [
+            {
+                "skill": "Spring Boot",
+                "current_status": "not evidenced in CV",
+                "evidence": "The job posting lists Spring Boot as a nice-to-have skill, which is not present in your CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Familiarize with Spring Boot",
+                        "action_description": "If you have experience with Spring Boot, add it to your CV with relevant project evidence. If not, consider learning it through online resources.",
+                        "expected_impact": "This will enhance your technical profile and align you better with the job requirements.",
+                        "priority": "Medium"
+                    }
+                ]
+            },
+            {
+                "skill": "Docker",
+                "current_status": "not evidenced in CV",
+                "evidence": "Docker is listed as a nice-to-have skill in the job posting but is not mentioned in your CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn Docker Basics",
+                        "action_description": "Consider taking a course on Docker to understand containerization and its applications in software development.",
+                        "expected_impact": "This will improve your technical skill set and make you a more attractive candidate.",
+                        "priority": "Medium"
+                    }
+                ]
+            },
+            {
+                "skill": "Jenkins",
+                "current_status": "not evidenced in CV",
+                "evidence": "Jenkins is mentioned as a nice-to-have skill in the job posting, which is not reflected in your CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Explore Jenkins",
+                        "action_description": "If you have experience with Jenkins, add it to your CV. If not, consider learning about it through tutorials or courses.",
+                        "expected_impact": "This will enhance your profile and align with the job requirements.",
+                        "priority": "Medium"
+                    }
+                ]
+            }
+        ],
+        "project_recommendations": [],
+        "soft_skills_recommendations": [
+            {
+                "title": "Evidencing Communication Skills",
+                "reason": "While you mention strong communication skills, there is limited evidence in your CV to support this claim.",
+                "evidence": "The CV quality analysis indicates that soft skills are not clearly evidenced.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Highlight Teamwork Experiences",
+                        "action_description": "Include specific examples from your projects where you collaborated with others or communicated effectively.",
+                        "expected_impact": "This will provide concrete evidence of your communication skills and enhance your CV.",
+                        "priority": "Medium"
+                    }
+                ]
+            }
+        ],
+        "priority_actions": [
+            {
+                "action_title": "Organize Skills Section",
+                "action_description": "Organize your skills into categories such as Programming Languages, Tools, and Frameworks to improve clarity.",
+                "expected_impact": "This will enhance the readability of your CV and make it easier for recruiters to identify your relevant skills.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Learn REST API Basics",
+                "action_description": "Consider taking an online course or tutorial on REST APIs to build foundational knowledge.",
+                "expected_impact": "This will help you meet the job requirements and improve your candidacy for the position.",
+                "priority": "High"
+            }
+        ],
+        "methodology_notes": [
+            "The recommendations are based solely on the provided CV, job posting, and quality analysis. No assumptions about the candidate's skills or experiences have been made beyond the evidence presented."
+        ]
+    }
+}

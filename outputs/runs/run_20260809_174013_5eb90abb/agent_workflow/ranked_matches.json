@@ -1,0 +1,27 @@
+{
+    "ranked_matches": [
+        {
+            "job_id": "job_001",
+            "job_key": "text_hash_98cd425badd885f5966b417d6feace3c2062eec3f89ac95bc72fb7529053513b",
+            "loaded_from_database": false,
+            "storage_summary": {
+                "inserted": true,
+                "updated_existing": false,
+                "submission_count": 1
+            },
+            "job_information": {
+                "job_title": null,
+                "company_name": "Typhoon HIL",
+                "job_category": null,
+                "location": null,
+                "work_mode": null,
+                "employment_type": null
+            },
+            "structured_job_output_path": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260809_174013_5eb90abb\\jobs\\job_001\\job_extraction\\structured_job.json",
+            "final_hybrid_score": 40.54,
+            "direct_matching_score": 39.49,
+            "semantic_score": 43.0,
+            "match_category": "Weak match"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "number_of_jobs_analyzed": 1,
+    "best_match": {
+        "rank": 1,
+        "job_id": "job_001",
+        "job_title": null,
+        "company_name": "Typhoon HIL",
+        "job_category": null,
+        "location": null,
+        "work_mode": null,
+        "employment_type": null,
+        "final_hybrid_score": 40.54,
+        "direct_matching_score": 39.49,
+        "semantic_score": 43.0,
+        "match_category": "Weak match",
+        "top_matched_required_skills": [],
+        "top_missing_required_skills": [
+            "C/C++ programming",
+            "embedded systems",
+            "automotive Ethernet",
+            "CAN-based communication protocols",
+            "Linux operating systems"
+        ]
+    },
+    "ranked_jobs": [
+        {
+            "rank": 1,
+            "job_id": "job_001",
+            "job_title": null,
+            "company_name": "Typhoon HIL",
+            "job_category": null,
+            "location": null,
+            "work_mode": null,
+            "employment_type": null,
+            "final_hybrid_score": 40.54,
+            "direct_matching_score": 39.49,
+            "semantic_score": 43.0,
+            "match_category": "Weak match",
+            "top_matched_required_skills": [],
+            "top_missing_required_skills": [
+                "C/C++ programming",
+                "embedded systems",
+                "automotive Ethernet",
+                "CAN-based communication protocols",
+                "Linux operating systems"
+            ]
+        }
+    ]
+}

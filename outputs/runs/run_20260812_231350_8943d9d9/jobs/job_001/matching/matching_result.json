@@ -1,0 +1,210 @@
+{
+    "metadata": {
+        "created_at": "2026-08-12T23:14:09",
+        "matching_type": "hybrid_direct_and_llm_semantic_matching",
+        "cv_source": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\user_uploads\\cv\\cv_20260812_230950_2ed444ad_CV_searchable_ATS.pdf",
+        "job_source": "job_001",
+        "llm_model": "gpt-4o-mini"
+    },
+    "job_information": {
+        "job_title": "Junior Java Backend Developer",
+        "company_name": "NovaTech Solutions",
+        "job_category": "Software Development",
+        "location": "Belgrade, Serbia",
+        "work_mode": "Hybrid",
+        "employment_type": "Full-time"
+    },
+    "final_result": {
+        "final_hybrid_score": 51.23,
+        "direct_matching_score": 50.47,
+        "semantic_score": 53.0,
+        "match_category": "Partial match"
+    },
+    "weights_used": {
+        "direct_matching_weights": {
+            "required_skills_score": 0.35,
+            "technology_score": 0.25,
+            "experience_score": 0.25,
+            "education_score": 0.08,
+            "nice_to_have_score": 0.04,
+            "certification_score": 0.02,
+            "language_score": 0.01
+        },
+        "internal_semantic_matching_weights": {
+            "responsibilities_alignment_score": 0.4,
+            "soft_skills_evidence_score": 0.2,
+            "contextual_experience_alignment_score": 0.25,
+            "semantic_skill_evidence_score": 0.15
+        },
+        "matching_mode_weights": {
+            "direct_matching_score": 0.7,
+            "semantic_score": 0.3
+        },
+        "weighting_note": "Direct matching weights and direct-vs-semantic matching weights are configurable values. Semantic matching weights are internal default values used to compose the semantic score."
+    },
+    "score_breakdown": {
+        "required_skills_score": 85.71,
+        "technology_score": 57.14,
+        "experience_score": 0,
+        "education_score": null,
+        "nice_to_have_score": 28.57,
+        "certification_score": null,
+        "language_score": 0.0,
+        "direct_matching_score": 50.47,
+        "responsibilities_alignment_score": 60,
+        "soft_skills_evidence_score": 40,
+        "contextual_experience_alignment_score": 60,
+        "semantic_skill_evidence_score": 40,
+        "semantic_score": 53.0,
+        "final_hybrid_score": 51.23
+    },
+    "matched_items": {
+        "matched_required_skills": [
+            {
+                "job_requirement": "Java",
+                "cv_evidence": "Java",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Object-Oriented Programming",
+                "cv_evidence": "Found in structured CV evidence text",
+                "match_type": "text_evidence_match"
+            },
+            {
+                "job_requirement": "SQL",
+                "cv_evidence": "SQL",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Git",
+                "cv_evidence": "Git",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Data Structures",
+                "cv_evidence": "Data Structures",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Algorithms",
+                "cv_evidence": "Algorithms",
+                "match_type": "exact_skill_match"
+            }
+        ],
+        "matched_nice_to_have_skills": [
+            {
+                "job_requirement": "Python",
+                "cv_evidence": "Python",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "C++",
+                "cv_evidence": "C++",
+                "match_type": "exact_skill_match"
+            }
+        ],
+        "matched_technology_skills": [
+            {
+                "job_requirement": "Java",
+                "cv_evidence": "Java",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Python",
+                "cv_evidence": "Python",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "SQL",
+                "cv_evidence": "SQL",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Git",
+                "cv_evidence": "Git",
+                "match_type": "exact_skill_match"
+            }
+        ],
+        "matched_certifications": [],
+        "matched_languages": []
+    },
+    "missing_items": {
+        "missing_required_skills": [
+            "REST API basics"
+        ],
+        "missing_nice_to_have_skills": [
+            "Spring Boot",
+            "Docker",
+            "Jenkins",
+            "Microservices",
+            "Linux"
+        ],
+        "missing_technology_skills": [
+            "Spring Boot",
+            "Docker",
+            "Jenkins"
+        ],
+        "missing_certifications": [],
+        "missing_languages": [
+            "English"
+        ]
+    },
+    "experience_analysis": {
+        "job_minimum_years": 0,
+        "cv_years_of_experience": null,
+        "experience_score": 0,
+        "experience_note": "The job posting specifies experience requirements, but years of experience are not clearly evidenced in the CV."
+    },
+    "education_analysis": {
+        "job_education_requirements": [
+            "Bachelor's degree Computer Science, Software Engineering, Information Systems, or a related technical field A degree in Computer Science, Software Engineering, Computer Engineering, Information Systems, or a similar technical field is required or currently in progress."
+        ],
+        "cv_education": [
+            "University of Belgrade - School of Electrical Engineering (ETF) Bachelor of Science (B.Sc.) Software Engineering  2027"
+        ],
+        "education_score": null,
+        "education_note": "Education is present in the CV, but direct matching cannot reliably determine whether it is equivalent to the job education requirement. This component should be reviewed semantically or manually."
+    },
+    "semantic_analysis": {
+        "role_fit_summary": "Alex Johnson is a strong candidate for the Junior Java Backend Developer position at NovaTech Solutions, evidenced by his solid foundation in Java, SQL, and Object-Oriented Programming through academic projects. His experience with Git and problem-solving skills align well with the job requirements. However, he lacks direct experience with REST APIs and the specific technologies mentioned in the job posting, such as Spring Boot, Docker, and Jenkins.",
+        "responsibilities_evidenced": [
+            "Develop and maintain backend components using Java.",
+            "Work with relational databases and write SQL queries.",
+            "Participate in code reviews and team discussions.",
+            "Debug and fix software issues."
+        ],
+        "responsibilities_not_evidenced": [
+            "Assist in building and documenting REST APIs.",
+            "Collaborate with senior developers and learn professional software development practices.",
+            "Write simple technical documentation for implemented features."
+        ],
+        "soft_skills_evidenced": [
+            "Problem solving"
+        ],
+        "soft_skills_not_clearly_evidenced": [
+            "Good communication skills"
+        ],
+        "contextual_experience_evidence": [
+            "Developed a command-line interpreter applying advanced OOP principles in C++, which demonstrates relevant programming skills.",
+            "Worked on a GUI Flight Simulator using Java, showcasing Java programming experience.",
+            "Implemented performance-critical algorithms in C/C++, indicating strong problem-solving capabilities."
+        ],
+        "contextual_experience_gaps": [
+            "No direct experience with REST APIs or backend development practices in a professional setting.",
+            "Lack of experience with specific frameworks and tools like Spring Boot, Docker, and Jenkins."
+        ],
+        "semantic_skill_evidence": [
+            "REST API basics"
+        ],
+        "possible_direct_matching_false_negatives": [
+            "REST API basics"
+        ],
+        "responsibilities_alignment_score": 60,
+        "soft_skills_evidence_score": 40,
+        "contextual_experience_alignment_score": 60,
+        "semantic_skill_evidence_score": 40,
+        "evidence_notes": [
+            "The candidate has demonstrated relevant programming skills through various projects, particularly in Java and SQL, which align with the job responsibilities. However, there is no evidence of experience with REST APIs, which is a key requirement. The candidate's problem-solving skills are evidenced through project work, but communication skills are not explicitly evidenced in the CV. The lack of experience with Spring Boot, Docker, and Jenkins is noted as a gap, but the candidate's academic background and project experience provide a foundation for learning these technologies."
+        ]
+    }
+}

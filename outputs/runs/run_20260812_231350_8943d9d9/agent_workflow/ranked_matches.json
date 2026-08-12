@@ -1,0 +1,27 @@
+{
+    "ranked_matches": [
+        {
+            "job_id": "job_001",
+            "job_key": "text_hash_f8f3d7479a450438296db95395769d53cd065794ffdfc60afec51a0e60111fd0",
+            "loaded_from_database": true,
+            "storage_summary": {
+                "inserted": false,
+                "updated_existing": true,
+                "submission_count": 3
+            },
+            "job_information": {
+                "job_title": "Junior Java Backend Developer",
+                "company_name": "NovaTech Solutions",
+                "job_category": "Software Development",
+                "location": "Belgrade, Serbia",
+                "work_mode": "Hybrid",
+                "employment_type": "Full-time"
+            },
+            "structured_job_output_path": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_231350_8943d9d9\\jobs\\job_001\\job_extraction\\structured_job.json",
+            "final_hybrid_score": 51.23,
+            "direct_matching_score": 50.47,
+            "semantic_score": 53.0,
+            "match_category": "Partial match"
+        }
+    ]
+}

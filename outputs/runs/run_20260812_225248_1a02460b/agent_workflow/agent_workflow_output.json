@@ -1,0 +1,238 @@
+{
+    "metadata": {
+        "created_at": "2026-08-12T22:53:37",
+        "workflow_type": "langgraph_production_cv_job_matching_agent",
+        "status": "completed",
+        "started_at": "2026-08-12T22:52:48",
+        "completed_at": "2026-08-12T22:53:37",
+        "run_id": "run_20260812_225248_1a02460b",
+        "run_output_dir": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_225248_1a02460b"
+    },
+    "user_choices": {
+        "user_wants_cv_recommendations": true,
+        "user_wants_job_matching": true,
+        "user_wants_job_recommendations": true,
+        "user_wants_detailed_report": false,
+        "selected_job_id": "job_001"
+    },
+    "cv_digest": {
+        "candidate_name": "ALEX JOHNSON",
+        "email": "alex.jjohnson@example.com",
+        "phone": "+1 202-555-0147",
+        "location": "Example City, 10000",
+        "linkedin_url": "https://www.linkedin.com/in/alex-johnson-example/",
+        "github_url": "",
+        "portfolio_url": "",
+        "profile_summary": "Highly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical Engineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and System Programming (C/C++, Java, Python). Seeking to leverage advanced technical skills and a robust background in low-level systems and application development to contribute high-impact solutions to a challenging and innovative engineering environment. Strong communication and teamwork skills developed through university projects.",
+        "total_years_of_experience": "",
+        "final_cv_quality_score": 69.5,
+        "cv_quality_category": "Basic CV",
+        "overall_summary": "The CV presents a strong candidate profile with relevant education and project experience in software engineering. However, it lacks clarity in the organization of skills and measurable results, which could enhance its impact.",
+        "top_strengths": [
+            "Strong educational background with a high GPA in Software Engineering.",
+            "Relevant projects demonstrating practical application of skills in software development.",
+            "Clear specialization in Data Structures and Algorithms and System Programming."
+        ],
+        "top_weaknesses": [
+            "Lack of measurable results or quantifiable achievements in project descriptions.",
+            "Skills section is somewhat cluttered and lacks clear organization.",
+            "No work experience or internships mentioned, which could strengthen the CV."
+        ],
+        "missing_or_unclear_sections": [
+            "Work experience or internships related to software engineering.",
+            "Measurable outcomes or impacts from projects."
+        ],
+        "cv_quality_scores": {
+            "structure_and_readability_score": 70,
+            "completeness_score": 80,
+            "technical_skills_clarity_score": 60,
+            "experience_description_score": 75,
+            "projects_description_score": 80,
+            "measurable_results_score": 40,
+            "it_relevance_score": 80
+        },
+        "cv_quality_weights_used": {
+            "structure_and_readability_score": 0.15,
+            "completeness_score": 0.15,
+            "technical_skills_clarity_score": 0.2,
+            "experience_description_score": 0.2,
+            "projects_description_score": 0.15,
+            "measurable_results_score": 0.1,
+            "it_relevance_score": 0.05
+        },
+        "cv_text_preview": "ALEX JOHNSON\n¢ +1 202-555-0147 | alex.jjohnson@example.com | Example City, 10000\nSOFTWARE ENGINEERING STUDENT\nin| https://www.linkedin.com/in/alex-johnson-example/\nPROFILE\nHighly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical\nEngineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and\nSystem Programming (C/C++, Java,Python). Seeking to leverage advanced technical skills and a robust\nbackground in low-level systems and application development to contribute high-impact solutions to a\nchallenging and innovative engineering environment. Strong communication and teamwork skills\ndeveloped through university projects.\nEDUCATION\nUniversity of Belgrade - School of Electrical Engineering (ETF)\ne Degree: Bachelor of..."
+    },
+    "cv_recommendations_digest": {
+        "source": "cv_quality_analysis",
+        "recommendations": [
+            "Add specific measurable results or impacts for each project to demonstrate effectiveness.",
+            "Organize the skills section into categories (e.g., Programming Languages, Tools, Concepts) for better clarity.",
+            "Include any relevant work experience or internships to provide a more comprehensive view of practical experience."
+        ],
+        "weaknesses_used_as_evidence": [
+            "Lack of measurable results or quantifiable achievements in project descriptions.",
+            "Skills section is somewhat cluttered and lacks clear organization.",
+            "No work experience or internships mentioned, which could strengthen the CV."
+        ],
+        "missing_or_unclear_sections": [
+            "Work experience or internships related to software engineering.",
+            "Measurable outcomes or impacts from projects."
+        ]
+    },
+    "matching_digest": {
+        "number_of_jobs_analyzed": 1,
+        "best_match": {
+            "rank": 1,
+            "job_id": "job_001",
+            "job_title": null,
+            "company_name": "SynergisticIT",
+            "job_category": "Software Development",
+            "location": null,
+            "work_mode": null,
+            "employment_type": "Full-time",
+            "final_hybrid_score": 24.57,
+            "direct_matching_score": 23.96,
+            "semantic_score": 26.0,
+            "match_category": "Weak match",
+            "top_matched_required_skills": [
+                {
+                    "job_requirement": "Java",
+                    "cv_evidence": "Java",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "C++",
+                    "cv_evidence": "C++",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "Python",
+                    "cv_evidence": "Python",
+                    "match_type": "exact_skill_match"
+                }
+            ],
+            "top_missing_required_skills": [
+                "Core Java",
+                "JavaScript",
+                "Spring Boot",
+                "Microservices",
+                "Docker"
+            ]
+        },
+        "ranked_jobs": [
+            {
+                "rank": 1,
+                "job_id": "job_001",
+                "job_title": null,
+                "company_name": "SynergisticIT",
+                "job_category": "Software Development",
+                "location": null,
+                "work_mode": null,
+                "employment_type": "Full-time",
+                "final_hybrid_score": 24.57,
+                "direct_matching_score": 23.96,
+                "semantic_score": 26.0,
+                "match_category": "Weak match",
+                "top_matched_required_skills": [
+                    {
+                        "job_requirement": "Java",
+                        "cv_evidence": "Java",
+                        "match_type": "exact_skill_match"
+                    },
+                    {
+                        "job_requirement": "C++",
+                        "cv_evidence": "C++",
+                        "match_type": "exact_skill_match"
+                    },
+                    {
+                        "job_requirement": "Python",
+                        "cv_evidence": "Python",
+                        "match_type": "exact_skill_match"
+                    }
+                ],
+                "top_missing_required_skills": [
+                    "Core Java",
+                    "JavaScript",
+                    "Spring Boot",
+                    "Microservices",
+                    "Docker"
+                ]
+            }
+        ]
+    },
+    "selected_job_recommendations_digest": {
+        "job_id": "job_001",
+        "available": true,
+        "overall_recommendation_summary": "To improve your CV and job matching for the Software Development position at SynergisticIT, focus on addressing the missing required skills, enhancing the clarity and organization of your technical skills, and providing measurable results for your projects.",
+        "priority_actions": [
+            {
+                "action_title": "Quantify Project Outcomes",
+                "action_description": "For each project, add specific metrics or results that showcase the effectiveness of your contributions.",
+                "expected_impact": "This will strengthen your CV by providing evidence of your capabilities and achievements, making you a more attractive candidate.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Learn Core Java",
+                "action_description": "Consider taking an online course or working on a project that involves Core Java to build your skills in this area.",
+                "expected_impact": "This will help you meet the job requirements and improve your overall qualifications for similar positions.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Organize Skills Section",
+                "action_description": "Organize your technical skills into categories such as Programming Languages, Tools, and Concepts to enhance clarity.",
+                "expected_impact": "This will improve the structure and readability of your CV, making it easier for recruiters to assess your qualifications.",
+                "priority": "Medium"
+            }
+        ],
+        "cv_improvement_recommendations_count": 3,
+        "missing_required_skills_recommendations_count": 11,
+        "technical_development_recommendations_count": 0,
+        "project_recommendations_count": 0,
+        "soft_skills_recommendations_count": 1,
+        "methodology_notes": [
+            "The recommendations are based solely on the provided CV, job posting, and quality analysis. They do not account for any unlisted skills or experiences the candidate may possess."
+        ]
+    },
+    "selected_job_final_report_summary": null,
+    "job_results": [
+        {
+            "job_id": "job_001",
+            "job_key": "text_hash_21601969447ad8e90ac4a68bfebbe60a00beb53690b5bd255118db4069e3be18",
+            "loaded_from_database": true,
+            "storage_summary": {
+                "inserted": false,
+                "updated_existing": true,
+                "submission_count": 4
+            },
+            "job_information": {
+                "job_title": null,
+                "company_name": "SynergisticIT",
+                "job_category": "Software Development",
+                "location": null,
+                "work_mode": null,
+                "employment_type": "Full-time"
+            },
+            "structured_job_output_path": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_225248_1a02460b\\jobs\\job_001\\job_extraction\\structured_job.json",
+            "final_hybrid_score": 24.57,
+            "direct_matching_score": 23.96,
+            "semantic_score": 26.0,
+            "match_category": "Weak match"
+        }
+    ],
+    "workflow_log": [
+        "[2026-08-12T22:52:48] Agent workflow initialized.",
+        "[2026-08-12T22:52:48] Processed CV PDF and extracted CV text.",
+        "[2026-08-12T22:52:52] Completed CV quality analysis.",
+        "[2026-08-12T22:52:57] Extracted structured CV information.",
+        "[2026-08-12T22:52:57] Created CV digest.",
+        "[2026-08-12T22:52:57] Created CV recommendations digest from CV quality analysis.",
+        "[2026-08-12T22:53:37] Processed job input: job_001.",
+        "[2026-08-12T22:53:37] Processed 1 job posting(s).",
+        "[2026-08-12T22:53:37] Ranked job postings by final hybrid matching score.",
+        "[2026-08-12T22:53:37] Created matching digest.",
+        "[2026-08-12T22:53:37] Automatically selected best ranked job: job_001.",
+        "[2026-08-12T22:53:37] Prepared recommendation digest for selected job.",
+        "[2026-08-12T22:53:37] Agent workflow completed."
+    ],
+    "errors": []
+}

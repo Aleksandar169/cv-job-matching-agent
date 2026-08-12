@@ -1,0 +1,172 @@
+{
+    "metadata": {
+        "created_at": "2026-08-09T17:40:46",
+        "matching_type": "hybrid_direct_and_llm_semantic_matching",
+        "cv_source": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\user_uploads\\cv\\cv_20260809_174013_59e2973a_CV_searchable_ATS.pdf",
+        "job_source": "job_001",
+        "llm_model": "gpt-4o-mini"
+    },
+    "job_information": {
+        "job_title": null,
+        "company_name": "Typhoon HIL",
+        "job_category": null,
+        "location": null,
+        "work_mode": null,
+        "employment_type": null
+    },
+    "final_result": {
+        "final_hybrid_score": 40.54,
+        "direct_matching_score": 39.49,
+        "semantic_score": 43.0,
+        "match_category": "Weak match"
+    },
+    "weights_used": {
+        "direct_matching_weights": {
+            "required_skills_score": 0.35,
+            "technology_score": 0.25,
+            "experience_score": 0.2,
+            "education_score": 0.08,
+            "nice_to_have_score": 0.04,
+            "certification_score": 0.02,
+            "language_score": 0.01
+        },
+        "internal_semantic_matching_weights": {
+            "responsibilities_alignment_score": 0.4,
+            "soft_skills_evidence_score": 0.2,
+            "contextual_experience_alignment_score": 0.25,
+            "semantic_skill_evidence_score": 0.15
+        },
+        "matching_mode_weights": {
+            "direct_matching_score": 0.7,
+            "semantic_score": 0.3
+        },
+        "weighting_note": "Direct matching weights and direct-vs-semantic matching weights are configurable values. Semantic matching weights are internal default values used to compose the semantic score."
+    },
+    "score_breakdown": {
+        "required_skills_score": 0.0,
+        "technology_score": 100.0,
+        "experience_score": null,
+        "education_score": null,
+        "nice_to_have_score": 16.67,
+        "certification_score": null,
+        "language_score": 0.0,
+        "direct_matching_score": 39.49,
+        "responsibilities_alignment_score": 20,
+        "soft_skills_evidence_score": 80,
+        "contextual_experience_alignment_score": 40,
+        "semantic_skill_evidence_score": 60,
+        "semantic_score": 43.0,
+        "final_hybrid_score": 40.54
+    },
+    "matched_items": {
+        "matched_required_skills": [],
+        "matched_nice_to_have_skills": [
+            {
+                "job_requirement": "Python",
+                "cv_evidence": "Python",
+                "match_type": "exact_skill_match"
+            }
+        ],
+        "matched_technology_skills": [
+            {
+                "job_requirement": "C",
+                "cv_evidence": "C",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "C++",
+                "cv_evidence": "C++",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Python",
+                "cv_evidence": "Python",
+                "match_type": "exact_skill_match"
+            }
+        ],
+        "matched_certifications": [],
+        "matched_languages": []
+    },
+    "missing_items": {
+        "missing_required_skills": [
+            "C/C++ programming",
+            "embedded systems",
+            "automotive Ethernet",
+            "CAN-based communication protocols",
+            "Linux operating systems",
+            "bare-metal development",
+            "version control systems (Git, SVN)",
+            "embedded Linux ecosystem"
+        ],
+        "missing_nice_to_have_skills": [
+            "RTOS",
+            "communication subsystems",
+            "automated code generation",
+            "MATLAB/Simulink",
+            "German"
+        ],
+        "missing_technology_skills": [],
+        "missing_certifications": [],
+        "missing_languages": [
+            "English",
+            "German"
+        ]
+    },
+    "experience_analysis": {
+        "job_minimum_years": null,
+        "cv_years_of_experience": null,
+        "experience_score": null,
+        "experience_note": "The job posting does not clearly specify minimum years of experience, so experience is not included in the matching score."
+    },
+    "education_analysis": {
+        "job_education_requirements": [],
+        "cv_education": [
+            "University of Belgrade - School of Electrical Engineering (ETF) Bachelor of Science (B.Sc.) Software Engineering  2027"
+        ],
+        "education_score": null,
+        "education_note": "The job posting does not clearly specify education requirements, so education is not included in the matching score."
+    },
+    "semantic_analysis": {
+        "role_fit_summary": "The candidate demonstrates a strong foundation in C/C++ programming and relevant project experience in low-level systems, which aligns with the job's requirements for embedded software development. However, there are significant gaps in experience with automotive Ethernet, CAN protocols, and Linux operating systems, which are critical for the role. The candidate's soft skills in communication and teamwork are well evidenced, but overall, the lack of direct experience in embedded systems and specific technologies limits the fit for this position.",
+        "responsibilities_evidenced": [
+            "Developed a foundational kernel model to demonstrate core OS concepts, focusing heavily on memory management, threads, and low-level hardware interaction.",
+            "Developed a functional command-line interpreter applying advanced OOP principles in C++."
+        ],
+        "responsibilities_not_evidenced": [
+            "Develop and maintain embedded software on SoC platforms",
+            "Design, implement, and debug communication subsystems based on Ethernet and other relevant communication interfaces",
+            "Work within a multidisciplinary team of electronics engineers, software and firmware developers, power engineering and power electronics specialists"
+        ],
+        "soft_skills_evidenced": [
+            "Strong communication",
+            "Teamwork"
+        ],
+        "soft_skills_not_clearly_evidenced": [],
+        "contextual_experience_evidence": [
+            "Developed a multithreaded kernel model, which involves low-level programming and system concepts relevant to embedded systems.",
+            "Worked on projects that require problem-solving and algorithmic logic, which are essential in embedded software development."
+        ],
+        "contextual_experience_gaps": [
+            "No direct experience with automotive Ethernet or CAN-based communication protocols.",
+            "No evidence of working with Linux operating systems or bare-metal development.",
+            "Lack of experience with version control systems beyond Git."
+        ],
+        "semantic_skill_evidence": [
+            "C/C++ programming",
+            "embedded systems",
+            "Linux operating systems",
+            "version control systems (Git)"
+        ],
+        "possible_direct_matching_false_negatives": [
+            "C/C++ programming",
+            "embedded systems"
+        ],
+        "responsibilities_alignment_score": 20,
+        "soft_skills_evidence_score": 80,
+        "contextual_experience_alignment_score": 40,
+        "semantic_skill_evidence_score": 60,
+        "evidence_notes": [
+            "The candidate has strong programming skills in C/C++ and has worked on projects that involve low-level systems, which can be related to embedded systems. However, specific technologies like automotive Ethernet and CAN protocols are not mentioned in the CV. The candidate's experience with Git is evidenced, but there is no mention of SVN or Linux operating systems, which are critical for the role. The soft skills of communication and teamwork are well supported through project work."
+        ]
+    }
+}

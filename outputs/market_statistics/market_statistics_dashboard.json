@@ -1,0 +1,295 @@
+{
+    "metadata": {
+        "created_at": "2026-08-12T22:51:56",
+        "statistics_type": "job_market_statistics_from_analyzed_jobs",
+        "weighted_by_submission_count": true,
+        "source": "MongoDB analyzed_jobs or provided job documents",
+        "start_date": null,
+        "end_date": null
+    },
+    "metrics": {
+        "unique_jobs_count": 4,
+        "total_submissions": 5,
+        "most_requested_skill": "JavaScript",
+        "top_job_category": "Software Development",
+        "average_required_skills_count": 13.5
+    },
+    "monthly_unique_jobs": [
+        {
+            "month": "2026-07",
+            "unique_jobs_count": 2
+        },
+        {
+            "month": "2026-08",
+            "unique_jobs_count": 2
+        }
+    ],
+    "monthly_submissions": [
+        {
+            "month": "2026-07",
+            "submission_count": 2
+        },
+        {
+            "month": "2026-08",
+            "submission_count": 3
+        }
+    ],
+    "jobs_by_category": [
+        {
+            "job_category": "Software Development",
+            "count": 4
+        }
+    ],
+    "jobs_by_work_mode": [
+        {
+            "work_mode": "Remote",
+            "count": 1
+        },
+        {
+            "work_mode": "On-site 75% of the time",
+            "count": 1
+        }
+    ],
+    "jobs_by_employment_type": [
+        {
+            "employment_type": "Full-time",
+            "count": 3
+        },
+        {
+            "employment_type": "Freelance",
+            "count": 1
+        }
+    ],
+    "most_requested_required_skills": [
+        {
+            "skill": "JavaScript",
+            "count": 4
+        },
+        {
+            "skill": "Python",
+            "count": 3
+        },
+        {
+            "skill": "HTML5",
+            "count": 2
+        },
+        {
+            "skill": "Java",
+            "count": 2
+        },
+        {
+            "skill": "Core Java",
+            "count": 2
+        },
+        {
+            "skill": "C++",
+            "count": 2
+        },
+        {
+            "skill": "Spring Boot",
+            "count": 2
+        },
+        {
+            "skill": "Microservices",
+            "count": 2
+        },
+        {
+            "skill": "Docker",
+            "count": 2
+        },
+        {
+            "skill": "Jenkins",
+            "count": 2
+        }
+    ],
+    "most_requested_nice_to_have_skills": [
+        {
+            "skill": "NLP",
+            "count": 2
+        },
+        {
+            "skill": "Text mining",
+            "count": 2
+        },
+        {
+            "skill": "Tableau",
+            "count": 2
+        },
+        {
+            "skill": "PowerBI",
+            "count": 2
+        },
+        {
+            "skill": "TensorFlow",
+            "count": 2
+        },
+        {
+            "skill": "Emerging Microsoft technologies",
+            "count": 1
+        },
+        {
+            "skill": "RTOS",
+            "count": 1
+        },
+        {
+            "skill": "communication subsystems",
+            "count": 1
+        },
+        {
+            "skill": "Python",
+            "count": 1
+        },
+        {
+            "skill": "automated code generation",
+            "count": 1
+        }
+    ],
+    "most_requested_programming_languages": [
+        {
+            "programming_language": "JavaScript",
+            "count": 4
+        },
+        {
+            "programming_language": "Python",
+            "count": 4
+        },
+        {
+            "programming_language": "C++",
+            "count": 3
+        },
+        {
+            "programming_language": "Java",
+            "count": 2
+        },
+        {
+            "programming_language": "TypeScript",
+            "count": 1
+        },
+        {
+            "programming_language": "C#",
+            "count": 1
+        },
+        {
+            "programming_language": "VB.NET",
+            "count": 1
+        },
+        {
+            "programming_language": "C",
+            "count": 1
+        }
+    ],
+    "most_requested_frameworks_and_libraries": [
+        {
+            "framework_or_library": "Spring Boot",
+            "count": 2
+        },
+        {
+            "framework_or_library": "React",
+            "count": 1
+        },
+        {
+            "framework_or_library": "Node.js",
+            "count": 1
+        },
+        {
+            "framework_or_library": "Express.js",
+            "count": 1
+        },
+        {
+            "framework_or_library": "ASP.NET",
+            "count": 1
+        },
+        {
+            "framework_or_library": "MVC",
+            "count": 1
+        },
+        {
+            "framework_or_library": "jQuery",
+            "count": 1
+        },
+        {
+            "framework_or_library": "Knockout.js",
+            "count": 1
+        },
+        {
+            "framework_or_library": "Angular.js",
+            "count": 1
+        },
+        {
+            "framework_or_library": "HTML5",
+            "count": 1
+        }
+    ],
+    "most_requested_databases": [
+        {
+            "database": "PostgreSQL",
+            "count": 1
+        },
+        {
+            "database": "MongoDB",
+            "count": 1
+        },
+        {
+            "database": "SQL Server",
+            "count": 1
+        }
+    ],
+    "most_requested_cloud_and_devops_tools": [
+        {
+            "cloud_or_devops_tool": "Docker",
+            "count": 2
+        },
+        {
+            "cloud_or_devops_tool": "Jenkins",
+            "count": 2
+        },
+        {
+            "cloud_or_devops_tool": "AWS",
+            "count": 1
+        },
+        {
+            "cloud_or_devops_tool": "Azure",
+            "count": 1
+        },
+        {
+            "cloud_or_devops_tool": "Google Cloud Platform",
+            "count": 1
+        }
+    ],
+    "most_requested_data_and_ai_tools": [
+        {
+            "data_or_ai_tool": "SAS",
+            "count": 2
+        },
+        {
+            "data_or_ai_tool": "TensorFlow",
+            "count": 2
+        }
+    ],
+    "top_it_roles": [
+        {
+            "role": "Freelance Full-Stack Software Engineer",
+            "count": 1,
+            "demand_level": "Low",
+            "top_required_skills": [
+                "JavaScript",
+                "TypeScript",
+                "React",
+                "Node.js",
+                "Python"
+            ]
+        },
+        {
+            "role": "Senior Developer",
+            "count": 1,
+            "demand_level": "Low",
+            "top_required_skills": [
+                "ASP.NET",
+                "C#",
+                "MVC",
+                "Object Oriented Design/Development",
+                "VB.NET"
+            ]
+        }
+    ]
+}

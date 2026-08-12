@@ -1,0 +1,193 @@
+{
+    "metadata": {
+        "created_at": "2026-08-12T22:52:10",
+        "matching_type": "hybrid_direct_and_llm_semantic_matching",
+        "cv_source": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\user_uploads\\cv\\cv_20260812_225152_de802e66_CV_searchable_ATS.pdf",
+        "job_source": "job_001",
+        "llm_model": "gpt-4o-mini"
+    },
+    "job_information": {
+        "job_title": null,
+        "company_name": "SynergisticIT",
+        "job_category": "Software Development",
+        "location": null,
+        "work_mode": null,
+        "employment_type": "Full-time"
+    },
+    "final_result": {
+        "final_hybrid_score": 24.27,
+        "direct_matching_score": 23.96,
+        "semantic_score": 25.0,
+        "match_category": "Weak match"
+    },
+    "weights_used": {
+        "direct_matching_weights": {
+            "required_skills_score": 0.35,
+            "technology_score": 0.25,
+            "experience_score": 0.25,
+            "education_score": 0.08,
+            "nice_to_have_score": 0.04,
+            "certification_score": 0.02,
+            "language_score": 0.01
+        },
+        "internal_semantic_matching_weights": {
+            "responsibilities_alignment_score": 0.4,
+            "soft_skills_evidence_score": 0.2,
+            "contextual_experience_alignment_score": 0.25,
+            "semantic_skill_evidence_score": 0.15
+        },
+        "matching_mode_weights": {
+            "direct_matching_score": 0.7,
+            "semantic_score": 0.3
+        },
+        "weighting_note": "Direct matching weights and direct-vs-semantic matching weights are configurable values. Semantic matching weights are internal default values used to compose the semantic score."
+    },
+    "score_breakdown": {
+        "required_skills_score": 20.0,
+        "technology_score": 33.33,
+        "experience_score": null,
+        "education_score": null,
+        "nice_to_have_score": 0.0,
+        "certification_score": null,
+        "language_score": null,
+        "direct_matching_score": 23.96,
+        "responsibilities_alignment_score": 0,
+        "soft_skills_evidence_score": 60,
+        "contextual_experience_alignment_score": 40,
+        "semantic_skill_evidence_score": 20,
+        "semantic_score": 25.0,
+        "final_hybrid_score": 24.27
+    },
+    "matched_items": {
+        "matched_required_skills": [
+            {
+                "job_requirement": "Java",
+                "cv_evidence": "Java",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "C++",
+                "cv_evidence": "C++",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Python",
+                "cv_evidence": "Python",
+                "match_type": "exact_skill_match"
+            }
+        ],
+        "matched_nice_to_have_skills": [],
+        "matched_technology_skills": [
+            {
+                "job_requirement": "Java",
+                "cv_evidence": "Java",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "C++",
+                "cv_evidence": "C++",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Python",
+                "cv_evidence": "Python",
+                "match_type": "exact_skill_match"
+            }
+        ],
+        "matched_certifications": [],
+        "matched_languages": []
+    },
+    "missing_items": {
+        "missing_required_skills": [
+            "Core Java",
+            "JavaScript",
+            "Spring Boot",
+            "Microservices",
+            "Docker",
+            "Jenkins",
+            "REST APIs",
+            "Statistics",
+            "SAS",
+            "Computer Vision",
+            "data visualization tools",
+            "Excellent written and verbal communication skills"
+        ],
+        "missing_nice_to_have_skills": [
+            "NLP",
+            "Text mining",
+            "Tableau",
+            "PowerBI",
+            "TensorFlow"
+        ],
+        "missing_technology_skills": [
+            "JavaScript",
+            "Spring Boot",
+            "Docker",
+            "Jenkins",
+            "SAS",
+            "TensorFlow"
+        ],
+        "missing_certifications": [],
+        "missing_languages": []
+    },
+    "experience_analysis": {
+        "job_minimum_years": null,
+        "cv_years_of_experience": null,
+        "experience_score": null,
+        "experience_note": "The job posting does not clearly specify minimum years of experience, so experience is not included in the matching score."
+    },
+    "education_analysis": {
+        "job_education_requirements": [
+            "Bachelors degree or Masters degree Computer Science, Computer Engineering, Electrical Engineering, Information Systems, IT Bachelors degree or Masters degree in Computer Science, Computer Engineering, Electrical Engineering, Information Systems, IT",
+            "Bachelors degree or Masters degree Computer Science, Computer Engineering, Electrical Engineering, Information Systems, IT Bachelors degree or Masters degree in Computer Science, Computer Engineering, Electrical Engineering, Information Systems, IT"
+        ],
+        "cv_education": [
+            "University of Belgrade - School of Electrical Engineering (ETF) Bachelor of Science (B.Sc.) Software Engineering  2027"
+        ],
+        "education_score": null,
+        "education_note": "Education is present in the CV, but direct matching cannot reliably determine whether it is equivalent to the job education requirement. This component should be reviewed semantically or manually."
+    },
+    "semantic_analysis": {
+        "role_fit_summary": "The candidate demonstrates a solid foundation in software engineering with strong programming skills in Java, C++, and Python, which aligns with the job requirements. However, there are significant gaps in required technologies such as Spring Boot, Docker, and Microservices, as well as soft skills like self-motivation and technical inquisitiveness that are not clearly evidenced. Overall, the candidate shows potential but lacks several key skills and experiences required for the role.",
+        "responsibilities_evidenced": [],
+        "responsibilities_not_evidenced": [],
+        "soft_skills_evidenced": [
+            "Strong communication",
+            "Teamwork"
+        ],
+        "soft_skills_not_clearly_evidenced": [
+            "Highly motivated",
+            "self-learner",
+            "technically inquisitive"
+        ],
+        "contextual_experience_evidence": [
+            "Developed a foundational kernel model demonstrating core OS concepts, which relates to understanding software development life cycles.",
+            "Experience in developing applications using Java, C++, and Python, which are relevant programming languages for the job."
+        ],
+        "contextual_experience_gaps": [
+            "No evidence of experience with Microservices, Docker, or Jenkins, which are critical for the role.",
+            "Lack of experience in data science or machine learning contexts, which is part of the job description."
+        ],
+        "semantic_skill_evidence": [
+            "Core Java",
+            "JavaScript",
+            "Spring Boot",
+            "Microservices",
+            "Docker",
+            "Jenkins",
+            "REST APIs",
+            "Statistics",
+            "SAS",
+            "Computer Vision",
+            "data visualization tools"
+        ],
+        "possible_direct_matching_false_negatives": [],
+        "responsibilities_alignment_score": 0,
+        "soft_skills_evidence_score": 60,
+        "contextual_experience_alignment_score": 40,
+        "semantic_skill_evidence_score": 20,
+        "evidence_notes": [
+            "The candidate has strong programming skills in Java, C++, and Python, which are relevant to the job, but lacks specific experience with required technologies like Spring Boot and Docker. Soft skills such as strong communication and teamwork are evidenced, but other requested soft skills are not clearly evidenced. Contextual experience is limited, particularly in areas related to data science and machine learning."
+        ]
+    }
+}

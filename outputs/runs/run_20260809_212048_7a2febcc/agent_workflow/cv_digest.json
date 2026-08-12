@@ -1,0 +1,47 @@
+{
+    "candidate_name": "ALEX JOHNSON",
+    "email": "alex.jjohnson@example.com",
+    "phone": "+1 202-555-0147",
+    "location": "Example City, 10000",
+    "linkedin_url": "https://www.linkedin.com/in/alex-johnson-example/",
+    "github_url": "",
+    "portfolio_url": "",
+    "profile_summary": "Highly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical Engineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and System Programming (C/C++, Java, Python). Seeking to leverage advanced technical skills and a robust background in low-level systems and application development to contribute high-impact solutions to a challenging and innovative engineering environment. Strong communication and teamwork skills developed through university projects.",
+    "total_years_of_experience": "",
+    "final_cv_quality_score": 68.0,
+    "cv_quality_category": "Basic CV",
+    "overall_summary": "The CV presents a strong candidate profile with relevant education and project experience in software engineering. However, it lacks clarity in some sections and could benefit from improved organization and detail in skills and project descriptions.",
+    "top_strengths": [
+        "Strong educational background with a high GPA in Software Engineering.",
+        "Relevant projects demonstrating practical application of skills in software development.",
+        "Clear specialization in Data Structures and Algorithms and System Programming."
+    ],
+    "top_weaknesses": [
+        "Lack of measurable results or specific achievements in projects.",
+        "Skills section is somewhat generic and lacks detailed organization.",
+        "Contact information formatting is inconsistent."
+    ],
+    "missing_or_unclear_sections": [
+        "No clear section for certifications or additional training.",
+        "No specific measurable outcomes or impacts from projects."
+    ],
+    "cv_quality_scores": {
+        "structure_and_readability_score": 70,
+        "completeness_score": 75,
+        "technical_skills_clarity_score": 65,
+        "experience_description_score": 70,
+        "projects_description_score": 75,
+        "measurable_results_score": 40,
+        "it_relevance_score": 80
+    },
+    "cv_quality_weights_used": {
+        "structure_and_readability_score": 0.15,
+        "completeness_score": 0.15,
+        "technical_skills_clarity_score": 0.2,
+        "experience_description_score": 0.2,
+        "projects_description_score": 0.15,
+        "measurable_results_score": 0.1,
+        "it_relevance_score": 0.05
+    },
+    "cv_text_preview": "ALEX JOHNSON\n¢ +1 202-555-0147 | alex.jjohnson@example.com | Example City, 10000\nSOFTWARE ENGINEERING STUDENT\nin| https://www.linkedin.com/in/alex-johnson-example/\nPROFILE\nHighly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical\nEngineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and\nSystem Programming (C/C++, Java,Python). Seeking to leverage advanced technical skills and a robust\nbackground in low-level systems and application development to contribute high-impact solutions to a\nchallenging and innovative engineering environment. Strong communication and teamwork skills\ndeveloped through university projects.\nEDUCATION\nUniversity of Belgrade - School of Electrical Engineering (ETF)\ne Degree: Bachelor of..."
+}

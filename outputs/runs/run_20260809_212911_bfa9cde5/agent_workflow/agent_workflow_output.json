@@ -1,0 +1,96 @@
+{
+    "metadata": {
+        "created_at": "2026-08-09T21:29:22",
+        "workflow_type": "langgraph_production_cv_job_matching_agent",
+        "status": "completed",
+        "started_at": "2026-08-09T21:29:11",
+        "completed_at": "2026-08-09T21:29:22",
+        "run_id": "run_20260809_212911_bfa9cde5",
+        "run_output_dir": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260809_212911_bfa9cde5"
+    },
+    "user_choices": {
+        "user_wants_cv_recommendations": true,
+        "user_wants_job_matching": false,
+        "user_wants_job_recommendations": false,
+        "user_wants_detailed_report": false,
+        "selected_job_id": null
+    },
+    "cv_digest": {
+        "candidate_name": "ALEX JOHNSON",
+        "email": "alex.jjohnson@example.com",
+        "phone": "+1 202-555-0147",
+        "location": "Example City, 10000",
+        "linkedin_url": "https://www.linkedin.com/in/alex-johnson-example/",
+        "github_url": "",
+        "portfolio_url": "",
+        "profile_summary": "Highly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical Engineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and System Programming (C/C++, Java, Python). Seeking to leverage advanced technical skills and a robust background in low-level systems and application development to contribute high-impact solutions to a challenging and innovative engineering environment. Strong communication and teamwork skills developed through university projects.",
+        "total_years_of_experience": "",
+        "final_cv_quality_score": 69.5,
+        "cv_quality_category": "Basic CV",
+        "overall_summary": "The CV presents a strong candidate profile with relevant education and project experience in software engineering. However, it lacks clarity in the organization of skills and measurable results, which could enhance its impact.",
+        "top_strengths": [
+            "Strong educational background with a high GPA in Software Engineering.",
+            "Relevant projects demonstrating practical application of skills in software development.",
+            "Clear focus on specific technical areas such as Data Structures and Algorithms."
+        ],
+        "top_weaknesses": [
+            "Skills section is not well organized, making it harder to quickly identify technical proficiencies.",
+            "Lack of measurable results or achievements in project descriptions.",
+            "Some sections could benefit from clearer formatting and separation."
+        ],
+        "missing_or_unclear_sections": [
+            "No measurable outcomes or impacts from projects are provided.",
+            "Skills are listed but not categorized or prioritized, which affects clarity."
+        ],
+        "cv_quality_scores": {
+            "structure_and_readability_score": 70,
+            "completeness_score": 80,
+            "technical_skills_clarity_score": 60,
+            "experience_description_score": 75,
+            "projects_description_score": 80,
+            "measurable_results_score": 40,
+            "it_relevance_score": 80
+        },
+        "cv_quality_weights_used": {
+            "structure_and_readability_score": 0.15,
+            "completeness_score": 0.15,
+            "technical_skills_clarity_score": 0.2,
+            "experience_description_score": 0.2,
+            "projects_description_score": 0.15,
+            "measurable_results_score": 0.1,
+            "it_relevance_score": 0.05
+        },
+        "cv_text_preview": "ALEX JOHNSON\n¢ +1 202-555-0147 | alex.jjohnson@example.com | Example City, 10000\nSOFTWARE ENGINEERING STUDENT\nin| https://www.linkedin.com/in/alex-johnson-example/\nPROFILE\nHighly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical\nEngineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and\nSystem Programming (C/C++, Java,Python). Seeking to leverage advanced technical skills and a robust\nbackground in low-level systems and application development to contribute high-impact solutions to a\nchallenging and innovative engineering environment. Strong communication and teamwork skills\ndeveloped through university projects.\nEDUCATION\nUniversity of Belgrade - School of Electrical Engineering (ETF)\ne Degree: Bachelor of..."
+    },
+    "cv_recommendations_digest": {
+        "source": "cv_quality_analysis",
+        "recommendations": [
+            "Organize the skills section into categories (e.g., Programming Languages, Tools, Concepts) for better clarity.",
+            "Include measurable results or impacts for each project to demonstrate effectiveness and contributions.",
+            "Consider using bullet points consistently for all sections to improve readability."
+        ],
+        "weaknesses_used_as_evidence": [
+            "Skills section is not well organized, making it harder to quickly identify technical proficiencies.",
+            "Lack of measurable results or achievements in project descriptions.",
+            "Some sections could benefit from clearer formatting and separation."
+        ],
+        "missing_or_unclear_sections": [
+            "No measurable outcomes or impacts from projects are provided.",
+            "Skills are listed but not categorized or prioritized, which affects clarity."
+        ]
+    },
+    "matching_digest": null,
+    "selected_job_recommendations_digest": null,
+    "selected_job_final_report_summary": null,
+    "job_results": [],
+    "workflow_log": [
+        "[2026-08-09T21:29:11] Agent workflow initialized.",
+        "[2026-08-09T21:29:12] Processed CV PDF and extracted CV text.",
+        "[2026-08-09T21:29:15] Completed CV quality analysis.",
+        "[2026-08-09T21:29:22] Extracted structured CV information.",
+        "[2026-08-09T21:29:22] Created CV digest.",
+        "[2026-08-09T21:29:22] Created CV recommendations digest from CV quality analysis.",
+        "[2026-08-09T21:29:22] Agent workflow completed."
+    ],
+    "errors": []
+}

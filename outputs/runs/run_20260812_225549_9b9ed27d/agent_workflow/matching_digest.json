@@ -1,0 +1,81 @@
+{
+    "number_of_jobs_analyzed": 1,
+    "best_match": {
+        "rank": 1,
+        "job_id": "job_001",
+        "job_title": null,
+        "company_name": "SynergisticIT",
+        "job_category": "Software Development",
+        "location": null,
+        "work_mode": null,
+        "employment_type": "Full-time",
+        "final_hybrid_score": 25.47,
+        "direct_matching_score": 23.96,
+        "semantic_score": 29.0,
+        "match_category": "Weak match",
+        "top_matched_required_skills": [
+            {
+                "job_requirement": "Java",
+                "cv_evidence": "Java",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "C++",
+                "cv_evidence": "C++",
+                "match_type": "exact_skill_match"
+            },
+            {
+                "job_requirement": "Python",
+                "cv_evidence": "Python",
+                "match_type": "exact_skill_match"
+            }
+        ],
+        "top_missing_required_skills": [
+            "Core Java",
+            "JavaScript",
+            "Spring Boot",
+            "Microservices",
+            "Docker"
+        ]
+    },
+    "ranked_jobs": [
+        {
+            "rank": 1,
+            "job_id": "job_001",
+            "job_title": null,
+            "company_name": "SynergisticIT",
+            "job_category": "Software Development",
+            "location": null,
+            "work_mode": null,
+            "employment_type": "Full-time",
+            "final_hybrid_score": 25.47,
+            "direct_matching_score": 23.96,
+            "semantic_score": 29.0,
+            "match_category": "Weak match",
+            "top_matched_required_skills": [
+                {
+                    "job_requirement": "Java",
+                    "cv_evidence": "Java",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "C++",
+                    "cv_evidence": "C++",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "Python",
+                    "cv_evidence": "Python",
+                    "match_type": "exact_skill_match"
+                }
+            ],
+            "top_missing_required_skills": [
+                "Core Java",
+                "JavaScript",
+                "Spring Boot",
+                "Microservices",
+                "Docker"
+            ]
+        }
+    ]
+}

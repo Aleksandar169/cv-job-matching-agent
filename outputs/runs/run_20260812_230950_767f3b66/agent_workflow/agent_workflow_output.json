@@ -1,0 +1,244 @@
+{
+    "metadata": {
+        "created_at": "2026-08-12T23:10:24",
+        "workflow_type": "langgraph_production_cv_job_matching_agent",
+        "status": "completed",
+        "started_at": "2026-08-12T23:09:50",
+        "completed_at": "2026-08-12T23:10:24",
+        "run_id": "run_20260812_230950_767f3b66",
+        "run_output_dir": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_230950_767f3b66"
+    },
+    "user_choices": {
+        "user_wants_cv_recommendations": true,
+        "user_wants_job_matching": true,
+        "user_wants_job_recommendations": true,
+        "user_wants_detailed_report": false,
+        "selected_job_id": "job_001"
+    },
+    "cv_digest": {
+        "candidate_name": "ALEX JOHNSON",
+        "email": "alex.jjohnson@example.com",
+        "phone": "+1 202-555-0147",
+        "location": "Example City, 10000",
+        "linkedin_url": "https://www.linkedin.com/in/alex-johnson-example/",
+        "github_url": "",
+        "portfolio_url": "",
+        "profile_summary": "Highly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical Engineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and System Programming (C/C++, Java, Python). Seeking to leverage advanced technical skills and a robust background in low-level systems and application development to contribute high-impact solutions to a challenging and innovative engineering environment. Strong communication and teamwork skills developed through university projects.",
+        "total_years_of_experience": "",
+        "final_cv_quality_score": 69.5,
+        "cv_quality_category": "Basic CV",
+        "overall_summary": "The CV presents a strong candidate profile with relevant education and project experience in software engineering. However, it lacks clarity in the organization of skills and measurable results, which could enhance its impact.",
+        "top_strengths": [
+            "Strong educational background with a high GPA",
+            "Relevant projects demonstrating practical application of skills",
+            "Clear specialization in software engineering topics"
+        ],
+        "top_weaknesses": [
+            "Skills section lacks organization and clarity",
+            "No measurable results or achievements provided",
+            "Contact information formatting is inconsistent"
+        ],
+        "missing_or_unclear_sections": [
+            "Detailed descriptions of skills and their application",
+            "Measurable outcomes from projects or experiences"
+        ],
+        "cv_quality_scores": {
+            "structure_and_readability_score": 70,
+            "completeness_score": 80,
+            "technical_skills_clarity_score": 60,
+            "experience_description_score": 75,
+            "projects_description_score": 80,
+            "measurable_results_score": 40,
+            "it_relevance_score": 80
+        },
+        "cv_quality_weights_used": {
+            "structure_and_readability_score": 0.15,
+            "completeness_score": 0.15,
+            "technical_skills_clarity_score": 0.2,
+            "experience_description_score": 0.2,
+            "projects_description_score": 0.15,
+            "measurable_results_score": 0.1,
+            "it_relevance_score": 0.05
+        },
+        "cv_text_preview": "ALEX JOHNSON\n¢ +1 202-555-0147 | alex.jjohnson@example.com | Example City, 10000\nSOFTWARE ENGINEERING STUDENT\nin| https://www.linkedin.com/in/alex-johnson-example/\nPROFILE\nHighly motivated Third-Year Software Engineering student (GPA 9.2/10.0) at the School of Electrical\nEngineering (ETF), University of Belgrade, specializing in Data Structures and Algorithms (DSA) and\nSystem Programming (C/C++, Java,Python). Seeking to leverage advanced technical skills and a robust\nbackground in low-level systems and application development to contribute high-impact solutions to a\nchallenging and innovative engineering environment. Strong communication and teamwork skills\ndeveloped through university projects.\nEDUCATION\nUniversity of Belgrade - School of Electrical Engineering (ETF)\ne Degree: Bachelor of..."
+    },
+    "cv_recommendations_digest": {
+        "source": "cv_quality_analysis",
+        "recommendations": [
+            "Organize the skills section into categories (e.g., Programming Languages, Tools, etc.) for better clarity",
+            "Include measurable results or outcomes for each project to demonstrate impact",
+            "Ensure consistent formatting for contact information and section headings"
+        ],
+        "weaknesses_used_as_evidence": [
+            "Skills section lacks organization and clarity",
+            "No measurable results or achievements provided",
+            "Contact information formatting is inconsistent"
+        ],
+        "missing_or_unclear_sections": [
+            "Detailed descriptions of skills and their application",
+            "Measurable outcomes from projects or experiences"
+        ]
+    },
+    "matching_digest": {
+        "number_of_jobs_analyzed": 1,
+        "best_match": {
+            "rank": 1,
+            "job_id": "job_001",
+            "job_title": "Junior Java Backend Developer",
+            "company_name": "NovaTech Solutions",
+            "job_category": "Software Development",
+            "location": "Belgrade, Serbia",
+            "work_mode": "Hybrid",
+            "employment_type": "Full-time",
+            "final_hybrid_score": 51.68,
+            "direct_matching_score": 50.47,
+            "semantic_score": 54.5,
+            "match_category": "Partial match",
+            "top_matched_required_skills": [
+                {
+                    "job_requirement": "Java",
+                    "cv_evidence": "Java",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "Object-Oriented Programming",
+                    "cv_evidence": "Found in structured CV evidence text",
+                    "match_type": "text_evidence_match"
+                },
+                {
+                    "job_requirement": "SQL",
+                    "cv_evidence": "SQL",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "Git",
+                    "cv_evidence": "Git",
+                    "match_type": "exact_skill_match"
+                },
+                {
+                    "job_requirement": "Data Structures",
+                    "cv_evidence": "Data Structures",
+                    "match_type": "exact_skill_match"
+                }
+            ],
+            "top_missing_required_skills": [
+                "REST API basics"
+            ]
+        },
+        "ranked_jobs": [
+            {
+                "rank": 1,
+                "job_id": "job_001",
+                "job_title": "Junior Java Backend Developer",
+                "company_name": "NovaTech Solutions",
+                "job_category": "Software Development",
+                "location": "Belgrade, Serbia",
+                "work_mode": "Hybrid",
+                "employment_type": "Full-time",
+                "final_hybrid_score": 51.68,
+                "direct_matching_score": 50.47,
+                "semantic_score": 54.5,
+                "match_category": "Partial match",
+                "top_matched_required_skills": [
+                    {
+                        "job_requirement": "Java",
+                        "cv_evidence": "Java",
+                        "match_type": "exact_skill_match"
+                    },
+                    {
+                        "job_requirement": "Object-Oriented Programming",
+                        "cv_evidence": "Found in structured CV evidence text",
+                        "match_type": "text_evidence_match"
+                    },
+                    {
+                        "job_requirement": "SQL",
+                        "cv_evidence": "SQL",
+                        "match_type": "exact_skill_match"
+                    },
+                    {
+                        "job_requirement": "Git",
+                        "cv_evidence": "Git",
+                        "match_type": "exact_skill_match"
+                    },
+                    {
+                        "job_requirement": "Data Structures",
+                        "cv_evidence": "Data Structures",
+                        "match_type": "exact_skill_match"
+                    }
+                ],
+                "top_missing_required_skills": [
+                    "REST API basics"
+                ]
+            }
+        ]
+    },
+    "selected_job_recommendations_digest": {
+        "job_id": "job_001",
+        "available": true,
+        "overall_recommendation_summary": "To enhance your candidacy for the Junior Java Backend Developer position, focus on improving the clarity and organization of your CV, adding measurable results to your projects, and developing skills related to REST APIs and Spring Boot.",
+        "priority_actions": [
+            {
+                "action_title": "Organize Skills Section",
+                "action_description": "Organize your skills into categories such as Programming Languages, Tools, and Frameworks to improve clarity.",
+                "expected_impact": "This will enhance the readability of your CV and make it easier for recruiters to identify your relevant skills.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Learn REST API Basics",
+                "action_description": "Consider taking an online course or tutorial on REST APIs to build foundational knowledge.",
+                "expected_impact": "This will help you meet the job requirements and improve your candidacy for the position.",
+                "priority": "High"
+            }
+        ],
+        "cv_improvement_recommendations_count": 3,
+        "missing_required_skills_recommendations_count": 1,
+        "technical_development_recommendations_count": 3,
+        "project_recommendations_count": 0,
+        "soft_skills_recommendations_count": 1,
+        "methodology_notes": [
+            "The recommendations are based solely on the provided CV, job posting, and quality analysis. No assumptions about the candidate's skills or experiences have been made beyond the evidence presented."
+        ]
+    },
+    "selected_job_final_report_summary": null,
+    "job_results": [
+        {
+            "job_id": "job_001",
+            "job_key": "text_hash_f8f3d7479a450438296db95395769d53cd065794ffdfc60afec51a0e60111fd0",
+            "loaded_from_database": false,
+            "storage_summary": {
+                "inserted": true,
+                "updated_existing": false,
+                "submission_count": 1
+            },
+            "job_information": {
+                "job_title": "Junior Java Backend Developer",
+                "company_name": "NovaTech Solutions",
+                "job_category": "Software Development",
+                "location": "Belgrade, Serbia",
+                "work_mode": "Hybrid",
+                "employment_type": "Full-time"
+            },
+            "structured_job_output_path": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_230950_767f3b66\\jobs\\job_001\\job_extraction\\structured_job.json",
+            "final_hybrid_score": 51.68,
+            "direct_matching_score": 50.47,
+            "semantic_score": 54.5,
+            "match_category": "Partial match"
+        }
+    ],
+    "workflow_log": [
+        "[2026-08-12T23:09:50] Agent workflow initialized.",
+        "[2026-08-12T23:09:50] Processed CV PDF and extracted CV text.",
+        "[2026-08-12T23:09:54] Completed CV quality analysis.",
+        "[2026-08-12T23:10:02] Extracted structured CV information.",
+        "[2026-08-12T23:10:02] Created CV digest.",
+        "[2026-08-12T23:10:02] Created CV recommendations digest from CV quality analysis.",
+        "[2026-08-12T23:10:24] Processed job input: job_001.",
+        "[2026-08-12T23:10:24] Processed 1 job posting(s).",
+        "[2026-08-12T23:10:24] Ranked job postings by final hybrid matching score.",
+        "[2026-08-12T23:10:24] Created matching digest.",
+        "[2026-08-12T23:10:24] Automatically selected best ranked job: job_001.",
+        "[2026-08-12T23:10:24] Prepared recommendation digest for selected job.",
+        "[2026-08-12T23:10:24] Agent workflow completed."
+    ],
+    "errors": []
+}

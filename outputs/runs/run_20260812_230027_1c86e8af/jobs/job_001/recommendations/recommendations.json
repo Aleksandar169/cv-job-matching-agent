@@ -1,0 +1,332 @@
+{
+    "metadata": {
+        "created_at": "2026-08-12T23:01:39",
+        "recommendation_type": "llm_based_evidence_recommendations",
+        "llm_model": "gpt-4o-mini",
+        "cv_source": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\user_uploads\\cv\\cv_20260812_225549_a1e0c622_CV_searchable_ATS.pdf",
+        "job_source": "job_001",
+        "cv_quality_source": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_230027_1c86e8af\\cv_quality\\cv_quality_analysis.json",
+        "matching_source": "C:\\Users\\Lenovo\\Desktop\\Diplomski\\cv-job-matching-agent\\outputs\\runs\\run_20260812_230027_1c86e8af\\jobs\\job_001\\matching\\matching_result.json"
+    },
+    "job_information": {
+        "job_title": null,
+        "company_name": "SynergisticIT",
+        "job_category": "Software Development",
+        "location": null,
+        "work_mode": null,
+        "employment_type": "Full-time"
+    },
+    "matching_summary": {
+        "final_hybrid_score": 24.27,
+        "direct_matching_score": 23.96,
+        "semantic_score": 25.0,
+        "match_category": "Weak match"
+    },
+    "recommendations": {
+        "overall_recommendation_summary": "To improve your CV and job matching for the position at SynergisticIT, focus on organizing your skills more clearly, gaining experience with missing technologies, and providing measurable results for your projects.",
+        "cv_improvement_recommendations": [
+            {
+                "title": "Organize Skills Section",
+                "reason": "The skills section is not well organized, making it harder to quickly identify technical competencies, which is crucial for matching job requirements.",
+                "evidence": "The CV quality analysis indicates that the skills section lacks organization, affecting clarity.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Categorize Skills",
+                        "action_description": "Organize the skills section into categories such as Programming Languages, Tools, and Concepts for better clarity.",
+                        "expected_impact": "Improved clarity and readability of the CV, making it easier for recruiters to identify relevant skills.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "title": "Include Measurable Results in Projects",
+                "reason": "Lack of measurable results or achievements in project descriptions can weaken the impact of your CV.",
+                "evidence": "The CV quality analysis notes that no specific measurable outcomes or impacts from projects are provided.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Add Measurable Outcomes",
+                        "action_description": "For each project, include specific measurable results or impacts to demonstrate effectiveness and contributions.",
+                        "expected_impact": "Enhanced credibility and impact of project descriptions, making your CV more compelling.",
+                        "priority": "High"
+                    }
+                ]
+            }
+        ],
+        "missing_required_skills_recommendations": [
+            {
+                "skill": "Core Java",
+                "current_status": "not evidenced in CV",
+                "evidence": "The job posting requires Core Java, but it is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn Core Java",
+                        "action_description": "Consider taking an online course or working on a project that involves Core Java to gain experience.",
+                        "expected_impact": "Acquiring this skill will improve your job match for positions requiring Core Java.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "skill": "JavaScript",
+                "current_status": "not evidenced in CV",
+                "evidence": "JavaScript is listed as a required skill in the job posting but is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn JavaScript",
+                        "action_description": "Engage in self-study or complete a project that utilizes JavaScript to build your proficiency.",
+                        "expected_impact": "Adding JavaScript skills will enhance your fit for software development roles.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "skill": "Spring Boot",
+                "current_status": "not evidenced in CV",
+                "evidence": "Spring Boot is a required skill for the job, but there is no evidence of it in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Gain Experience with Spring Boot",
+                        "action_description": "If you have experience with Spring Boot, add it to your CV with specific project examples. If not, consider learning it through online resources.",
+                        "expected_impact": "Demonstrating knowledge of Spring Boot will significantly improve your job match.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "skill": "Docker",
+                "current_status": "not evidenced in CV",
+                "evidence": "Docker is required for the job but is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn Docker",
+                        "action_description": "Consider taking a course on Docker and working on a project that incorporates containerization.",
+                        "expected_impact": "Acquiring Docker skills will enhance your qualifications for the role.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "skill": "Jenkins",
+                "current_status": "not evidenced in CV",
+                "evidence": "Jenkins is listed as a required skill in the job posting but is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn Jenkins",
+                        "action_description": "Explore Jenkins through tutorials or projects to gain practical experience.",
+                        "expected_impact": "Adding Jenkins to your skill set will improve your job match.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "skill": "REST APIs",
+                "current_status": "not evidenced in CV",
+                "evidence": "REST APIs are required for the job, but there is no evidence of this in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn about REST APIs",
+                        "action_description": "If you have experience with REST APIs, add it to your CV. If not, consider building a project that utilizes RESTful services.",
+                        "expected_impact": "Demonstrating knowledge of REST APIs will enhance your fit for the position.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "skill": "Statistics",
+                "current_status": "not evidenced in CV",
+                "evidence": "Statistics is a required skill for the job, but it is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn Statistics",
+                        "action_description": "Consider taking a course in statistics to build foundational knowledge.",
+                        "expected_impact": "Acquiring statistics skills will improve your qualifications for data-related roles.",
+                        "priority": "Medium"
+                    }
+                ]
+            },
+            {
+                "skill": "SAS",
+                "current_status": "not evidenced in CV",
+                "evidence": "SAS is required for the job but is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn SAS",
+                        "action_description": "Explore SAS through online courses or tutorials to gain familiarity.",
+                        "expected_impact": "Adding SAS skills will enhance your fit for data science roles.",
+                        "priority": "Medium"
+                    }
+                ]
+            },
+            {
+                "skill": "Computer Vision",
+                "current_status": "not evidenced in CV",
+                "evidence": "Computer Vision is a required skill for the job, but there is no evidence of this in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn about Computer Vision",
+                        "action_description": "Consider studying computer vision concepts and working on related projects.",
+                        "expected_impact": "Demonstrating knowledge of computer vision will improve your job match.",
+                        "priority": "Medium"
+                    }
+                ]
+            },
+            {
+                "skill": "Data Visualization Tools",
+                "current_status": "not evidenced in CV",
+                "evidence": "Data visualization tools are required for the job, but there is no evidence of this in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn Data Visualization Tools",
+                        "action_description": "Familiarize yourself with tools like Tableau or PowerBI through online resources.",
+                        "expected_impact": "Adding data visualization skills will enhance your qualifications for the role.",
+                        "priority": "Medium"
+                    }
+                ]
+            },
+            {
+                "skill": "Excellent Written and Verbal Communication Skills",
+                "current_status": "partially evidenced",
+                "evidence": "While you have demonstrated communication skills through teamwork in projects, the job posting specifically requests excellent written and verbal communication skills.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Enhance Communication Skills",
+                        "action_description": "Engage in activities that require written and verbal communication, such as presentations or writing reports, and add these experiences to your CV.",
+                        "expected_impact": "Demonstrating strong communication skills will improve your job match.",
+                        "priority": "Medium"
+                    }
+                ]
+            }
+        ],
+        "technical_development_recommendations": [
+            {
+                "skill": "JavaScript",
+                "current_status": "not evidenced in CV",
+                "evidence": "JavaScript is a required technology for the job but is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn JavaScript",
+                        "action_description": "Engage in self-study or complete a project that utilizes JavaScript to build your proficiency.",
+                        "expected_impact": "Adding JavaScript skills will enhance your fit for software development roles.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "skill": "Spring Boot",
+                "current_status": "not evidenced in CV",
+                "evidence": "Spring Boot is a required technology for the job but is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Gain Experience with Spring Boot",
+                        "action_description": "If you have experience with Spring Boot, add it to your CV with specific project examples. If not, consider learning it through online resources.",
+                        "expected_impact": "Demonstrating knowledge of Spring Boot will significantly improve your job match.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "skill": "Docker",
+                "current_status": "not evidenced in CV",
+                "evidence": "Docker is a required technology for the job but is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn Docker",
+                        "action_description": "Consider taking a course on Docker and working on a project that incorporates containerization.",
+                        "expected_impact": "Acquiring Docker skills will enhance your qualifications for the role.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "skill": "Jenkins",
+                "current_status": "not evidenced in CV",
+                "evidence": "Jenkins is a required technology for the job but is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn Jenkins",
+                        "action_description": "Explore Jenkins through tutorials or projects to gain practical experience.",
+                        "expected_impact": "Adding Jenkins to your skill set will improve your job match.",
+                        "priority": "High"
+                    }
+                ]
+            },
+            {
+                "skill": "SAS",
+                "current_status": "not evidenced in CV",
+                "evidence": "SAS is a required technology for the job but is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn SAS",
+                        "action_description": "Explore SAS through online courses or tutorials to gain familiarity.",
+                        "expected_impact": "Adding SAS skills will enhance your fit for data science roles.",
+                        "priority": "Medium"
+                    }
+                ]
+            },
+            {
+                "skill": "TensorFlow",
+                "current_status": "not evidenced in CV",
+                "evidence": "TensorFlow is a nice-to-have skill for the job but is not mentioned in the CV.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Learn TensorFlow",
+                        "action_description": "Consider taking an online course on TensorFlow to understand its applications in machine learning.",
+                        "expected_impact": "Acquiring TensorFlow skills will improve your qualifications for data science roles.",
+                        "priority": "Medium"
+                    }
+                ]
+            }
+        ],
+        "project_recommendations": [],
+        "soft_skills_recommendations": [
+            {
+                "title": "Enhance Communication Skills",
+                "reason": "The job posting requests excellent written and verbal communication skills, which are only partially evidenced in your CV.",
+                "evidence": "You have demonstrated communication skills through teamwork in projects, but the job specifically requests strong written and verbal communication.",
+                "recommended_actions": [
+                    {
+                        "action_title": "Engage in Communication Activities",
+                        "action_description": "Participate in activities that require written and verbal communication, such as presentations or writing reports, and add these experiences to your CV.",
+                        "expected_impact": "Demonstrating strong communication skills will improve your job match.",
+                        "priority": "Medium"
+                    }
+                ]
+            }
+        ],
+        "priority_actions": [
+            {
+                "action_title": "Categorize Skills",
+                "action_description": "Organize the skills section into categories for better clarity.",
+                "expected_impact": "Improved clarity and readability of the CV.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Add Measurable Outcomes",
+                "action_description": "Include specific measurable results for each project to demonstrate effectiveness.",
+                "expected_impact": "Enhanced credibility and impact of project descriptions.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Learn Core Java",
+                "action_description": "Consider taking an online course or working on a project that involves Core Java.",
+                "expected_impact": "Improving your job match for positions requiring Core Java.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Learn JavaScript",
+                "action_description": "Engage in self-study or complete a project that utilizes JavaScript.",
+                "expected_impact": "Enhancing your fit for software development roles.",
+                "priority": "High"
+            },
+            {
+                "action_title": "Gain Experience with Spring Boot",
+                "action_description": "If you have experience with Spring Boot, add it to your CV. If not, consider learning it through online resources.",
+                "expected_impact": "Improving your job match significantly.",
+                "priority": "High"
+            }
+        ],
+        "methodology_notes": [
+            "The recommendations are based solely on the provided CV, job posting, and quality analysis. No assumptions about the candidate's skills or experiences have been made."
+        ]
+    }
+}

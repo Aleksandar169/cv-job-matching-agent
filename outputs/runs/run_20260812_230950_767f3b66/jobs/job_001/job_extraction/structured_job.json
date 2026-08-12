@@ -1,0 +1,89 @@
+{
+    "job_title": "Junior Java Backend Developer",
+    "company_name": "NovaTech Solutions",
+    "location": "Belgrade, Serbia",
+    "work_mode": "Hybrid",
+    "employment_type": "Full-time",
+    "job_category": "Software Development",
+    "required_skills": [
+        "Java",
+        "Object-Oriented Programming",
+        "SQL",
+        "Git",
+        "REST API basics",
+        "Data Structures",
+        "Algorithms"
+    ],
+    "nice_to_have_skills": [
+        "Spring Boot",
+        "Docker",
+        "Jenkins",
+        "Microservices",
+        "Linux",
+        "Python",
+        "C++"
+    ],
+    "programming_languages": [
+        "Java",
+        "Python"
+    ],
+    "frameworks_and_libraries": [
+        "Spring Boot"
+    ],
+    "databases": [
+        "SQL"
+    ],
+    "cloud_and_devops_tools": [
+        "Docker",
+        "Jenkins"
+    ],
+    "data_and_ai_tools": [],
+    "testing_tools": [],
+    "other_tools": [
+        "Git"
+    ],
+    "responsibilities": [
+        "Develop and maintain backend components using Java.",
+        "Assist in building and documenting REST APIs.",
+        "Work with relational databases and write SQL queries.",
+        "Participate in code reviews and team discussions.",
+        "Debug and fix software issues.",
+        "Collaborate with senior developers and learn professional software development practices.",
+        "Write simple technical documentation for implemented features."
+    ],
+    "experience_requirements": [
+        {
+            "minimum_years": "0 to 1 year",
+            "seniority_level": "Junior",
+            "related_area_or_skill": "software development",
+            "experience_description": "0 to 1 year of professional experience in software development, internship experience, or strong academic/project experience.",
+            "is_required": true
+        }
+    ],
+    "education_requirements": [
+        {
+            "degree_required": "Bachelor's degree",
+            "field_of_study": "Computer Science, Software Engineering, Information Systems, or a related technical field",
+            "education_description": "A degree in Computer Science, Software Engineering, Computer Engineering, Information Systems, or a similar technical field is required or currently in progress.",
+            "is_required": true
+        }
+    ],
+    "certifications": [],
+    "language_requirements": [
+        "English"
+    ],
+    "soft_skills": [
+        "Good problem-solving skills",
+        "Good communication skills"
+    ],
+    "unclear_or_missing_information": [],
+    "metadata": {
+        "job_key": "text_hash_f8f3d7479a450438296db95395769d53cd065794ffdfc60afec51a0e60111fd0",
+        "model": "gpt-4o-mini",
+        "extraction_type": "structured_job_extraction",
+        "source": "streamlit_user_input",
+        "source_file": null,
+        "source_row_index": null,
+        "notes": "Only information visible in the job posting text should be included."
+    }
+}
